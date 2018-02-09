@@ -1,0 +1,4 @@
+-02-02-04 17:23:41 :: Inserindo produto novo
+-02-02-04 17:23:41 :: insert into produto (id,descricao,estoque, preco_custo,preco_venda,codigo_barras,data_cadastro,origem) values ('18','Teste','30','5','10','546546546','2018-02-04','N')
+-02-02-04 17:23:46 :: Inserindo produto novo
+-02-02-04 17:23:46 :: insert into produto (id,descricao,estoque, preco_custo,preco_venda,codigo_barras,data_cadastro,origem) values ('19','Teste','30','5','10','546546546','2018-02-04','N')
