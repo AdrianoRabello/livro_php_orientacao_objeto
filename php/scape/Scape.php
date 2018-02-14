@@ -8,7 +8,7 @@
     private $id;
     private $nome;
     private $idade;
-    private $data = [];
+    private $data = array();
     const TABLE = "usuario";
 
     function __construct(){
@@ -68,7 +68,7 @@
 
     }
 
-    // recebe como parametro o nome da tabela e um array associativo cujo o nome do indice é o nome do campo no BD e seu valor
+    // recebe como parametro um array associativo cujo o nome do indice é o nome do campo no BD e seu valor
     public function save($dados){
 
       $this->receberDados($dados);
@@ -110,7 +110,7 @@
 
       } catch (Exception $e) {
 
-        echo 'Exceção capturada: ',  $e->getMessage(), "\n";
+        echo 'Exceção capturada: '.  $e->getMessage(). "\n";
       }
 
     }
@@ -174,14 +174,14 @@
   $p1->setIdade(29);
 
   $teste = array(
-    "id"=>null,
+    "id"=>1,
     "nome"=>"adriano",
     "idade"=>29
   );
 
   //$string = $scape->update("usuario",$teste);
   //$string = $scape->update("usuario",$teste);
-//$scape->receberDados($teste);
+  //$scape->receberDados($teste);
   //$p1->save($p1);
   $p1->update($teste);
 

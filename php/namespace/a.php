@@ -7,7 +7,7 @@
 
 		function escrever($msg){
 
-			echo "recebi : ".$msg." como parametro";
+			echo "recebi : '".$msg."' como parametro";
 		}
 
 	}

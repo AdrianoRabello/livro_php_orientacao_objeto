@@ -1,0 +1,9 @@
+-02-02-14 19:25:42 :: Inserindo um novo produto 
+-02-02-14 19:25:42 :: SELECT max(id) FROM produto
+-02-02-14 19:25:42 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja artezanal', 50, 8, 12, 'aefwgwrgwrgwf', '2018-02-14', 'N', 8 )
+-02-02-14 19:26:25 :: Inserindo um novo produto 
+-02-02-14 19:26:25 :: SELECT max(id) FROM produto
+-02-02-14 19:26:25 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja artezanal', 50, 8, 12, 'aefwgwrgwrgwf', '2018-02-14', 'N', 9 )
+-02-02-14 21:25:25 :: Inserindo um novo produto 
+-02-02-14 21:25:25 :: SELECT max(id) FROM produto
+-02-02-14 21:25:25 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja artezanal', 50, 8, 12, 'aefwgwrgwrgwf', '2018-02-14', 'N', 5 )
