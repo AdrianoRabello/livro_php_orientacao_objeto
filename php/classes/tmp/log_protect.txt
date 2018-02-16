@@ -1,0 +1,479 @@
+-02-02-16 16:13:56 :: Buscando um produto 
+-02-02-16 16:13:56 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:13:56 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:13:56 :: UPDATE produto SET descricao = 'cafe',estoque = '100',preco_custo = '4',preco_venda = '7',codigo_barras = '546546546',data_cadastro = '2018-02-04',origem = 'N' WHERE id=3
+-02-02-16 16:14:27 :: Buscando um produto 
+-02-02-16 16:14:27 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:27 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:27 :: UPDATE produto SET descricao = 'cafe',estoque = 'dois',preco_custo = '4',preco_venda = '7',codigo_barras = '546546546',data_cadastro = '2018-02-04',origem = 'N' WHERE id=3
+-02-02-16 16:14:28 :: Buscando um produto 
+-02-02-16 16:14:28 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:28 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:28 :: UPDATE produto SET descricao = 'cafe',estoque = 'dois',preco_custo = '4',preco_venda = '7',codigo_barras = '546546546',data_cadastro = '2018-02-04',origem = 'N' WHERE id=3
+-02-02-16 16:14:29 :: Buscando um produto 
+-02-02-16 16:14:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:29 :: UPDATE produto SET descricao = 'cafe',estoque = 'dois',preco_custo = '4',preco_venda = '7',codigo_barras = '546546546',data_cadastro = '2018-02-04',origem = 'N' WHERE id=3
+-02-02-16 16:14:29 :: Buscando um produto 
+-02-02-16 16:14:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:14:29 :: UPDATE produto SET descricao = 'cafe',estoque = 'dois',preco_custo = '4',preco_venda = '7',codigo_barras = '546546546',data_cadastro = '2018-02-04',origem = 'N' WHERE id=3
+-02-02-16 16:15:07 :: Buscando um produto 
+-02-02-16 16:15:18 :: Buscando um produto 
+-02-02-16 16:15:18 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:15:37 :: Buscando um produto 
+-02-02-16 16:15:37 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:16:03 :: Buscando um produto 
+-02-02-16 16:16:03 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:16:54 :: Buscando um produto 
+-02-02-16 16:16:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:16:55 :: Buscando um produto 
+-02-02-16 16:16:55 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:16:55 :: Buscando um produto 
+-02-02-16 16:16:55 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:08 :: Buscando um produto 
+-02-02-16 16:17:08 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:09 :: Buscando um produto 
+-02-02-16 16:17:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:09 :: Buscando um produto 
+-02-02-16 16:17:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:44 :: Buscando um produto 
+-02-02-16 16:17:44 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:45 :: Buscando um produto 
+-02-02-16 16:17:45 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:48 :: Buscando um produto 
+-02-02-16 16:17:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:48 :: Buscando um produto 
+-02-02-16 16:17:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:17:49 :: Buscando um produto 
+-02-02-16 16:17:49 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:18:17 :: Buscando um produto 
+-02-02-16 16:18:17 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:18:17 :: Buscando um produto 
+-02-02-16 16:18:17 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:18:18 :: Buscando um produto 
+-02-02-16 16:18:18 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:18:18 :: Buscando um produto 
+-02-02-16 16:18:18 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:20:01 :: protect um produto 
+-02-02-16 16:20:01 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:20:13 :: protect produto 
+-02-02-16 16:20:13 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:20:13 :: protect produto 
+-02-02-16 16:20:13 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:20:13 :: protect produto 
+-02-02-16 16:20:13 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:20:14 :: protect produto 
+-02-02-16 16:20:14 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:31:26 :: protect produto 
+-02-02-16 16:31:26 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:31:27 :: protect produto 
+-02-02-16 16:31:27 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:32:19 :: protect produto 
+-02-02-16 16:32:19 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:28 :: protect produto 
+-02-02-16 16:33:28 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:29 :: protect produto 
+-02-02-16 16:33:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:29 :: protect produto 
+-02-02-16 16:33:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:29 :: protect produto 
+-02-02-16 16:33:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:29 :: protect produto 
+-02-02-16 16:33:29 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:39 :: protect produto 
+-02-02-16 16:33:39 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:39 :: protect produto 
+-02-02-16 16:33:39 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:39 :: protect produto 
+-02-02-16 16:33:39 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:33:39 :: protect produto 
+-02-02-16 16:33:39 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:34:13 :: protect produto 
+-02-02-16 16:35:00 :: protect produto 
+-02-02-16 16:35:32 :: protect produto 
+-02-02-16 16:35:33 :: protect produto 
+-02-02-16 16:35:33 :: protect produto 
+-02-02-16 16:35:33 :: protect produto 
+-02-02-16 16:36:26 :: protect produto 
+-02-02-16 16:36:26 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:19 :: protect produto 
+-02-02-16 16:38:19 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:19 :: protect produto 
+-02-02-16 16:38:19 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:19 :: protect produto 
+-02-02-16 16:38:19 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:48 :: protect produto 
+-02-02-16 16:38:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:48 :: protect produto 
+-02-02-16 16:38:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:48 :: protect produto 
+-02-02-16 16:38:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:49 :: protect produto 
+-02-02-16 16:38:49 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:38:49 :: protect produto 
+-02-02-16 16:38:49 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:39:06 :: protect produto 
+-02-02-16 16:39:19 :: protect produto 
+-02-02-16 16:39:19 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:42:50 :: protect produto 
+-02-02-16 16:42:50 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:08 :: protect produto 
+-02-02-16 16:43:08 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:18 :: protect produto 
+-02-02-16 16:43:18 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:50 :: protect produto 
+-02-02-16 16:43:50 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:50 :: protect produto 
+-02-02-16 16:43:50 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:51 :: protect produto 
+-02-02-16 16:43:51 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:51 :: protect produto 
+-02-02-16 16:43:51 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:54 :: protect produto 
+-02-02-16 16:43:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:43:54 :: protect produto 
+-02-02-16 16:43:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:49:50 :: protect produto 
+-02-02-16 16:49:50 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:50:23 :: protect produto 
+-02-02-16 16:50:23 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:51:43 :: protect produto 
+-02-02-16 16:52:56 :: protect produto 
+-02-02-16 16:52:56 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:53:52 :: protect produto 
+-02-02-16 16:53:52 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:54:05 :: protect produto 
+-02-02-16 16:54:05 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:54:21 :: protect produto 
+-02-02-16 16:54:21 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:54:39 :: protect produto 
+-02-02-16 16:54:39 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:16 :: protect produto 
+-02-02-16 16:57:16 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:17 :: protect produto 
+-02-02-16 16:57:17 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:21 :: protect produto 
+-02-02-16 16:57:21 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:21 :: protect produto 
+-02-02-16 16:57:21 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:21 :: protect produto 
+-02-02-16 16:57:21 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:21 :: protect produto 
+-02-02-16 16:57:21 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:39 :: protect produto 
+-02-02-16 16:57:39 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:40 :: protect produto 
+-02-02-16 16:57:40 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:41 :: protect produto 
+-02-02-16 16:57:41 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:41 :: protect produto 
+-02-02-16 16:57:41 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:57:41 :: protect produto 
+-02-02-16 16:57:41 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:58:04 :: protect produto 
+-02-02-16 16:58:04 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:58:34 :: protect produto 
+-02-02-16 16:58:34 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:58:51 :: protect produto 
+-02-02-16 16:58:51 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:58:52 :: protect produto 
+-02-02-16 16:58:52 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:58:52 :: protect produto 
+-02-02-16 16:58:52 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 16:58:53 :: protect produto 
+-02-02-16 16:58:53 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:18:18 :: protect produto 
+-02-02-16 17:18:18 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:18:46 :: protect produto 
+-02-02-16 17:18:46 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:18:46 :: protect produto 
+-02-02-16 17:18:46 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:18:47 :: protect produto 
+-02-02-16 17:18:47 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:18:47 :: protect produto 
+-02-02-16 17:18:47 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:18:57 :: protect produto 
+-02-02-16 17:18:57 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:19:15 :: protect produto 
+-02-02-16 17:19:15 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:19:24 :: protect produto 
+-02-02-16 17:19:24 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:19:33 :: protect produto 
+-02-02-16 17:19:33 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:19:48 :: protect produto 
+-02-02-16 17:19:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:06 :: protect produto 
+-02-02-16 17:20:06 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:07 :: protect produto 
+-02-02-16 17:20:07 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:07 :: protect produto 
+-02-02-16 17:20:07 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:08 :: protect produto 
+-02-02-16 17:20:08 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:08 :: protect produto 
+-02-02-16 17:20:08 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:08 :: protect produto 
+-02-02-16 17:20:08 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:20:12 :: protect produto 
+-02-02-16 17:20:12 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:22:31 :: protect produto 
+-02-02-16 17:22:36 :: protect produto 
+-02-02-16 17:22:36 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:22:53 :: protect produto 
+-02-02-16 17:22:53 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:24:46 :: protect produto 
+-02-02-16 17:24:46 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:06 :: protect produto 
+-02-02-16 17:25:06 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:07 :: protect produto 
+-02-02-16 17:25:07 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:07 :: protect produto 
+-02-02-16 17:25:07 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:07 :: protect produto 
+-02-02-16 17:25:07 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:28 :: protect produto 
+-02-02-16 17:25:28 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:48 :: protect produto 
+-02-02-16 17:25:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:48 :: protect produto 
+-02-02-16 17:25:48 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:49 :: protect produto 
+-02-02-16 17:25:49 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:55 :: protect produto 
+-02-02-16 17:25:55 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:55 :: protect produto 
+-02-02-16 17:25:55 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:56 :: protect produto 
+-02-02-16 17:25:56 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:25:56 :: protect produto 
+-02-02-16 17:25:56 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:26:14 :: protect produto 
+-02-02-16 17:26:14 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:26:34 :: protect produto 
+-02-02-16 17:26:34 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:26:50 :: protect produto 
+-02-02-16 17:26:50 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:26:50 :: protect produto 
+-02-02-16 17:26:50 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:26:51 :: protect produto 
+-02-02-16 17:26:51 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:26:51 :: protect produto 
+-02-02-16 17:26:51 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:09 :: protect produto 
+-02-02-16 17:27:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:20 :: protect produto 
+-02-02-16 17:27:20 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:47 :: protect produto 
+-02-02-16 17:27:47 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:56 :: protect produto 
+-02-02-16 17:27:56 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:57 :: protect produto 
+-02-02-16 17:27:57 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:57 :: protect produto 
+-02-02-16 17:27:57 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:57 :: protect produto 
+-02-02-16 17:27:57 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:57 :: protect produto 
+-02-02-16 17:27:57 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:27:58 :: protect produto 
+-02-02-16 17:27:58 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:28:02 :: protect produto 
+-02-02-16 17:28:02 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:28:03 :: protect produto 
+-02-02-16 17:28:03 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:28:03 :: protect produto 
+-02-02-16 17:28:03 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:28:03 :: protect produto 
+-02-02-16 17:28:03 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:16 :: protect produto 
+-02-02-16 17:29:16 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:53 :: protect produto 
+-02-02-16 17:29:53 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:54 :: protect produto 
+-02-02-16 17:29:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:54 :: protect produto 
+-02-02-16 17:29:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:54 :: protect produto 
+-02-02-16 17:29:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:54 :: protect produto 
+-02-02-16 17:29:54 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:57 :: protect produto 
+-02-02-16 17:29:57 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:58 :: protect produto 
+-02-02-16 17:29:58 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:29:58 :: protect produto 
+-02-02-16 17:29:58 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:03 :: protect produto 
+-02-02-16 17:30:03 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:09 :: protect produto 
+-02-02-16 17:30:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:33 :: protect produto 
+-02-02-16 17:30:33 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:34 :: protect produto 
+-02-02-16 17:30:34 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:34 :: protect produto 
+-02-02-16 17:30:34 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:34 :: protect produto 
+-02-02-16 17:30:34 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:40 :: protect produto 
+-02-02-16 17:30:40 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:30:49 :: protect produto 
+-02-02-16 17:30:49 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:31:09 :: protect produto 
+-02-02-16 17:31:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:32:01 :: protect produto 
+-02-02-16 17:32:01 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:32:08 :: protect produto 
+-02-02-16 17:32:08 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:32:09 :: protect produto 
+-02-02-16 17:32:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:32:09 :: protect produto 
+-02-02-16 17:32:09 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:33:13 :: protect produto 
+-02-02-16 17:33:13 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:33:13 :: protect produto 
+-02-02-16 17:33:13 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:33:13 :: protect produto 
+-02-02-16 17:33:13 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 17:33:14 :: protect produto 
+-02-02-16 17:33:14 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 18:03:36 :: protect produto 
+-02-02-16 18:03:36 :: SELECT * FROM produto WHERE id = 3
+-02-02-16 18:04:28 :: protect produto 
+-02-02-16 18:04:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:04:56 :: protect produto 
+-02-02-16 18:04:56 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:23 :: protect produto 
+-02-02-16 18:05:23 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:43 :: protect produto 
+-02-02-16 18:05:43 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:44 :: protect produto 
+-02-02-16 18:05:44 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:44 :: protect produto 
+-02-02-16 18:05:44 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:44 :: protect produto 
+-02-02-16 18:05:44 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:44 :: protect produto 
+-02-02-16 18:05:44 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:45 :: protect produto 
+-02-02-16 18:05:45 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:05:45 :: protect produto 
+-02-02-16 18:05:45 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:06:25 :: protect produto 
+-02-02-16 18:06:25 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:06:26 :: protect produto 
+-02-02-16 18:06:26 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:06:26 :: protect produto 
+-02-02-16 18:06:26 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:06:26 :: protect produto 
+-02-02-16 18:06:26 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:06:33 :: protect produto 
+-02-02-16 18:06:33 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:08:09 :: protect produto 
+-02-02-16 18:08:09 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:10:09 :: protect produto 
+-02-02-16 18:10:09 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:10:18 :: protect produto 
+-02-02-16 18:10:18 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:12:18 :: protect produto 
+-02-02-16 18:12:18 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:12:20 :: protect produto 
+-02-02-16 18:12:20 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:12:21 :: protect produto 
+-02-02-16 18:12:21 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:16:52 :: protect produto 
+-02-02-16 18:16:52 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:17:24 :: protect produto 
+-02-02-16 18:17:24 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:17:47 :: protect produto 
+-02-02-16 18:17:47 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:17:57 :: protect produto 
+-02-02-16 18:17:57 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:18:09 :: protect produto 
+-02-02-16 18:18:09 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:18:16 :: protect produto 
+-02-02-16 18:18:16 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:19:39 :: protect produto 
+-02-02-16 18:19:39 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:35 :: protect produto 
+-02-02-16 18:35:35 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:36 :: protect produto 
+-02-02-16 18:35:36 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:37 :: protect produto 
+-02-02-16 18:35:37 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:38 :: protect produto 
+-02-02-16 18:35:38 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:38 :: protect produto 
+-02-02-16 18:35:38 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:38 :: protect produto 
+-02-02-16 18:35:38 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:39 :: protect produto 
+-02-02-16 18:35:39 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:39 :: protect produto 
+-02-02-16 18:35:39 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:39 :: protect produto 
+-02-02-16 18:35:39 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:39 :: protect produto 
+-02-02-16 18:35:39 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:39 :: protect produto 
+-02-02-16 18:35:39 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:35:40 :: protect produto 
+-02-02-16 18:35:40 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:36:20 :: protect produto 
+-02-02-16 18:36:20 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:36:20 :: protect produto 
+-02-02-16 18:36:20 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:36:20 :: protect produto 
+-02-02-16 18:36:20 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:38:43 :: protect produto 
+-02-02-16 18:38:43 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:38:44 :: protect produto 
+-02-02-16 18:38:44 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:38:51 :: protect produto 
+-02-02-16 18:38:51 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:38:57 :: protect produto 
+-02-02-16 18:38:57 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:39:48 :: protect produto 
+-02-02-16 18:39:48 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:40:13 :: protect produto 
+-02-02-16 18:40:13 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:40:51 :: protect produto 
+-02-02-16 18:40:51 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:43:58 :: protect produto 
+-02-02-16 18:43:58 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:44:12 :: protect produto 
+-02-02-16 18:44:12 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:44:13 :: protect produto 
+-02-02-16 18:44:13 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:44:13 :: protect produto 
+-02-02-16 18:44:13 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:44:14 :: protect produto 
+-02-02-16 18:44:14 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:44:19 :: protect produto 
+-02-02-16 18:44:19 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:44:23 :: protect produto 
+-02-02-16 18:44:23 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:48:42 :: protect produto 
+-02-02-16 18:48:42 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:48:43 :: protect produto 
+-02-02-16 18:48:43 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:01 :: protect produto 
+-02-02-16 18:49:33 :: protect produto 
+-02-02-16 18:49:34 :: protect produto 
+-02-02-16 18:49:44 :: protect produto 
+-02-02-16 18:49:44 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:45 :: protect produto 
+-02-02-16 18:49:45 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:45 :: protect produto 
+-02-02-16 18:49:45 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:46 :: protect produto 
+-02-02-16 18:49:46 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:46 :: protect produto 
+-02-02-16 18:49:46 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:46 :: protect produto 
+-02-02-16 18:49:46 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:49:57 :: protect produto 
+-02-02-16 18:49:57 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 18:50:01 :: protect produto 
+-02-02-16 18:50:01 :: SELECT * FROM produto WHERE id = 2

@@ -12,7 +12,6 @@
 					$this->fromArray($object->toArray());
 				}
 			}
-			
 
 		}
 
@@ -79,13 +78,15 @@
 					$this->id = $this->getLast() + 1;					
 					$prepared['id'] = $this->id;																	
 				}
-				print_r($prepared);
+				//print_r($prepared);
 
 				// cria a instrução de insert 
 				$sql = "INSERT INTO {$this->getEntity()} ".
 				'('.implode(', ', array_keys($prepared)).')'.
 				'values'.
 				"(".implode(', ', array_values($prepared))." )";
+
+
 
 
 			}else{
@@ -98,7 +99,7 @@
 						}						
 					}
 				}
-				$sql .= 'SET '.implode(',', $set);
+				$sql .= ' SET '.implode(',', $set);
 				$sql .= ' WHERE id='.(int) $this->data['id'];
 			}
 
@@ -110,27 +111,30 @@
 			}else{
 				throw new Exception(' Não há transação ativa');
 			}
+
+			print $sql;
 			
 		}
 
 		
 		// ira selecionar o objeto no BD 
 		public function load($id){
+			//print $id;
 			//monta a instrução select 
-			$sql = "SELECT * FROM {$this->getEntity}";
-			$sql .= "WHERE id = ".(int) $id;
-
+			$sql = "SELECT * FROM {$this->getEntity()}";
+			$sql .= " WHERE id = ".(int) $id;
+			//print $sql;
 			//obtem a transação ativa 
 			if ($con = Transaction::get()) {
 				// cria a mensagem de log 
 				Transaction::log($sql);
 				$result = $con->query($sql);
-
-				// se retornou algum dado 
+				// se retornou algum dado 				
 				if ($result) {
-					$object = $result->fetchObject(get_class($this));
-				}
-				return $object;
+					$object = $result->fetchObject(get_class($this));	
+					//$object = $result->fetchObject();				
+				}				
+				return $object;				
 			}else{
 				throw new Exception("Não há transação ativa");
 			}
@@ -143,7 +147,7 @@
 
 			//monta a strng para deletar 
 			$sql = "DELETE FROM {$this->getEntity()}";
-			$sql .= "WHERE id = ".(int)$this->data['id'];
+			$sql .= " WHERE id = ".(int)$this->data['id'];
 
 			// obtem a transação ativa 
 			if ($con  = Transaction::get()) {
@@ -160,7 +164,8 @@
 
 		// esse metodo é apenas um atalho para o meotod load. Podemos acessa-lo diretamente sem instaciar a classe 
 		public static function find($id){
-			$className = get_colled_class();
+			$className = get_called_class();
+			//print $className;
 			$ar = new $className;
 			return $ar->load($id);
 		}
@@ -211,7 +216,17 @@
 				}
 			}
 			return $prepared;
+		}	
+
+		public static function showError($e){
+			echo json_encode(array(
+			"message"=>$e->getMessage(),
+			"line"=>$e->getLine(),
+			"file"=>$e->getFile(),
+			"code"=>$e->getCode()
+			));
 		}
+
 
 
 	}

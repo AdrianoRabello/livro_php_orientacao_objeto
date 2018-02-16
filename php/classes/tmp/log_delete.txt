@@ -1,0 +1,45 @@
+-02-02-16 15:40:33 :: deletando um produto 
+-02-02-16 15:40:33 :: SELECT * FROM produto WHERE id = 6
+-02-02-16 15:40:33 :: DELETE FROM produto WHERE id = 6
+-02-02-16 15:51:04 :: deletando um produto 
+-02-02-16 15:51:04 :: SELECT * FROM produto WHERE id = 6
+-02-02-16 17:56:07 :: deletando um produto 
+-02-02-16 17:56:07 :: SELECT * FROM produto WHERE id = 6
+-02-02-16 17:56:51 :: deletando um produto 
+-02-02-16 17:56:51 :: SELECT * FROM produto WHERE id = 4
+-02-02-16 17:58:01 :: deletando um produto 
+-02-02-16 17:58:01 :: SELECT * FROM produto WHERE id = 4
+-02-02-16 17:58:01 :: DELETE FROM produto WHERE id = 4
+-02-02-16 17:58:01 :: DELETE FROM produto WHERE id = 4
+-02-02-16 17:59:40 :: deletando um produto 
+-02-02-16 17:59:40 :: SELECT * FROM produto WHERE id = 4
+-02-02-16 18:00:03 :: deletando um produto 
+-02-02-16 18:00:03 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:00:22 :: deletando um produto 
+-02-02-16 18:00:22 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:00:23 :: deletando um produto 
+-02-02-16 18:00:23 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:00:23 :: deletando um produto 
+-02-02-16 18:00:23 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:00:23 :: deletando um produto 
+-02-02-16 18:00:23 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:00:24 :: deletando um produto 
+-02-02-16 18:00:24 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:00:24 :: deletando um produto 
+-02-02-16 18:00:24 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:06 :: deletando um produto 
+-02-02-16 18:02:06 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:07 :: deletando um produto 
+-02-02-16 18:02:07 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:07 :: deletando um produto 
+-02-02-16 18:02:07 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:08 :: deletando um produto 
+-02-02-16 18:02:08 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:08 :: deletando um produto 
+-02-02-16 18:02:08 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:19 :: deletando um produto 
+-02-02-16 18:02:19 :: SELECT * FROM produto WHERE id = 7
+-02-02-16 18:02:19 :: DELETE FROM produto WHERE id = 7
+-02-02-16 18:02:19 :: DELETE FROM produto WHERE id = 7
+-02-02-16 18:08:16 :: deletando um produto 
+-02-02-16 18:08:16 :: SELECT * FROM produto WHERE id = 7

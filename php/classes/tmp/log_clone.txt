@@ -1,0 +1,32 @@
+-02-02-16 15:35:28 :: clonando um produto 
+-02-02-16 15:35:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:35:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:35:28 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:36:32 :: clonando um produto 
+-02-02-16 15:36:32 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:36:32 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:36:32 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:37:27 :: clonando um produto 
+-02-02-16 15:37:27 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:27 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:27 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:37:28 :: clonando um produto 
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:37:28 :: clonando um produto 
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:37:28 :: clonando um produto 
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:37:28 :: clonando um produto 
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:37:28 :: UPDATE produto SET descricao = 'Chocolate',estoque = '15',preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-02-02-16 15:38:02 :: clonando um produto 
+-02-02-16 15:38:02 :: SELECT * FROM produto WHERE id = 2
+-02-02-16 15:38:02 :: SELECT max(id) FROM produto
+-02-02-16 15:38:02 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Chocolate (clonado)', '15', '18', '18', '123456', '2018-01-27', 'N', 7 )

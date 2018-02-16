@@ -1,0 +1,25 @@
+-02-02-16 15:51:22 :: Inserindo uma nova venda 
+-02-02-16 15:51:37 :: Inserindo uma nova venda 
+-02-02-16 15:52:53 :: Inserindo uma nova venda 
+-02-02-16 15:53:39 :: Inserindo uma nova venda 
+-02-02-16 15:53:45 :: Inserindo uma nova venda 
+-02-02-16 15:53:59 :: Inserindo uma nova venda 
+-02-02-16 15:54:04 :: Inserindo uma nova venda 
+-02-02-16 15:54:13 :: Inserindo uma nova venda 
+-02-02-16 15:54:20 :: Inserindo uma nova venda 
+-02-02-16 15:55:05 :: Inserindo uma nova venda 
+-02-02-16 15:55:13 :: Inserindo uma nova venda 
+-02-02-16 15:55:20 :: Inserindo uma nova venda 
+-02-02-16 15:55:48 :: Inserindo uma nova venda 
+-02-02-16 15:56:17 :: Inserindo uma nova venda 
+-02-02-16 15:56:41 :: Inserindo uma nova venda 
+-02-02-16 15:56:52 :: Inserindo uma nova venda 
+-02-02-16 15:57:17 :: Inserindo uma nova venda 
+-02-02-16 15:57:29 :: Inserindo uma nova venda 
+-02-02-16 15:57:33 :: Inserindo uma nova venda 
+-02-02-16 15:57:38 :: Inserindo uma nova venda 
+-02-02-16 15:58:16 :: Inserindo uma nova venda 
+-02-02-16 15:58:23 :: Inserindo uma nova venda 
+-02-02-16 15:58:44 :: Inserindo uma nova venda 
+-02-02-16 15:58:44 :: SELECT * FROM venda WHERE id = 0
+-02-02-16 15:58:44 :: INSERT INTO venda (id, data_venda)values(' ', '2018-02-16' )
