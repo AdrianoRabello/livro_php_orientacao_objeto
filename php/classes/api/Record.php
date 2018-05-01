@@ -21,7 +21,7 @@
 
 		public function __set($prop,$value){
 			if (method_exists($this,'set_'.$prop)) {
-				call_user_func(array($this,'set_'.$prop));
+				call_user_func(array($this,'set_'.$prop),$value);
 			}else{
 				if ($value == NULL ) {
 					// se o valor estiver nulo deleta a propriedade
@@ -48,7 +48,7 @@
 			return isset($this->data[$prop]);
 		}
 
-		// responsalver por retornar o nome da tabela onde o Ative Recorde será persistido 
+		// responsalvel por retornar o nome da tabela onde o Ative Recorde será persistido 
 		private function getEntity(){
 			$class = get_class($this);//     obtem o nome da classe
 			return constant("{$class}::TABLENAME"); // retorna a constante da classe TABLENAME

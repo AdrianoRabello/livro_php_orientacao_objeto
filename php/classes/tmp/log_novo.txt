@@ -154,3 +154,87 @@
 -02-02-16 15:10:33 :: SELECT * FROM produto WHERE id = 2
 -02-02-16 15:10:33 :: SELECT * FROM produto WHERE id = 2
 -02-02-16 15:10:33 :: UPDATE produto SET descricao = 'Chocolate',estoque = 15,preco_custo = '18',preco_venda = '18',codigo_barras = '123456',data_cadastro = '2018-01-27',origem = 'N' WHERE id=2
+-03-04-29 17:37:50 :: Inserindo um novo produto 
+-03-04-29 17:40:29 :: Inserindo um novo produto 
+-03-04-29 17:40:29 :: SELECT max(id) FROM produto
+-03-04-29 17:40:29 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja artezanal', 50, 8, 12, 'aefwgwrgwrgwf', '2018-04-29', 'N', 1 )
+-03-04-29 17:42:21 :: Inserindo um novo produto 
+-03-04-29 17:43:48 :: Inserindo um novo produto 
+-03-04-29 17:43:48 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 17:44:06 :: Inserindo um novo produto 
+-03-04-29 17:44:06 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:37:57 :: Inserindo um novo produto 
+-03-04-29 18:37:57 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:09 :: Inserindo um novo produto 
+-03-04-29 18:39:09 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:10 :: Inserindo um novo produto 
+-03-04-29 18:39:10 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:10 :: Inserindo um novo produto 
+-03-04-29 18:39:10 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:10 :: Inserindo um novo produto 
+-03-04-29 18:39:10 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:11 :: Inserindo um novo produto 
+-03-04-29 18:39:11 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:45 :: Inserindo um novo produto 
+-03-04-29 18:39:45 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:46 :: Inserindo um novo produto 
+-03-04-29 18:39:46 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:46 :: Inserindo um novo produto 
+-03-04-29 18:39:46 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:46 :: Inserindo um novo produto 
+-03-04-29 18:39:46 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:51 :: Inserindo um novo produto 
+-03-04-29 18:39:51 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:53 :: Inserindo um novo produto 
+-03-04-29 18:39:53 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:53 :: Inserindo um novo produto 
+-03-04-29 18:39:53 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:53 :: Inserindo um novo produto 
+-03-04-29 18:39:53 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:39:53 :: Inserindo um novo produto 
+-03-04-29 18:39:53 :: SELECT * FROM produto WHERE id = 1
+-03-04-29 18:40:59 :: Inserindo um novo produto 
+-03-04-29 18:41:01 :: Inserindo um novo produto 
+-03-04-29 18:41:23 :: Inserindo um novo produto 
+-03-04-29 18:41:37 :: Inserindo um novo produto 
+-03-04-29 18:43:53 :: Inserindo um novo produto 
+-03-04-29 18:43:53 :: SELECT max(id) FROM produto
+-03-04-29 18:43:53 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja artezanal', 50, 8, 12, 'aefwgwrgwrgwf', '2018-04-29', 'N', 2 )
+-03-04-29 18:44:02 :: Inserindo um novo produto 
+-03-04-29 18:44:02 :: SELECT max(id) FROM produto
+-03-04-29 18:44:02 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja artezanal', 50, 8, 12, 'aefwgwrgwrgwf', '2018-04-29', 'N', 2 )
+-03-04-29 18:44:43 :: Inserindo um novo produto 
+-03-04-29 18:44:43 :: SELECT max(id) FROM produto
+-03-04-29 18:44:43 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Vinho caseiro ', 10, 35, 70, '3a5ew4d', '2018-04-29', 'N', 2 )
+-03-04-29 18:44:53 :: Inserindo um novo produto 
+-03-04-29 18:44:53 :: SELECT max(id) FROM produto
+-03-04-29 18:44:53 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Vinho caseiro ', 10, 35, 70, '3a5ew4d', '2018-04-29', 'N', 2 )
+-03-04-30 18:27:06 :: Inserindo um novo produto 
+-03-04-30 18:27:06 :: SELECT max(id) FROM produto
+-03-04-30 18:27:06 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AAA ', 10, 2, 5, 'qevf5', '2018-04-30', 'N', 3 )
+-03-04-30 18:27:37 :: Inserindo um novo produto 
+-03-04-30 18:27:37 :: SELECT max(id) FROM produto
+-03-04-30 18:27:37 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AA ', 100, 3, 6, 'qevf5', '2018-04-30', 'N', 4 )
+-03-04-30 19:17:03 :: Inserindo um novo produto 
+-03-04-30 19:17:03 :: SELECT max(id) FROM produto
+-03-04-30 19:17:03 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AA ', 100, 3, 6, 'qevf5', '2018-04-30', 'N', 1 )
+-03-04-30 19:17:17 :: Inserindo um novo produto 
+-03-04-30 19:17:17 :: SELECT max(id) FROM produto
+-03-04-30 19:17:17 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AAA ', 100, 2, 5, 'asd', '2018-04-30', 'N', 2 )
+-03-04-30 19:17:35 :: Inserindo um novo produto 
+-03-04-30 19:17:35 :: SELECT max(id) FROM produto
+-03-04-30 19:17:35 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Cerveja caseira ', 15, 6, 12, 'asd', '2018-04-30', 'N', 3 )
+-03-04-30 19:17:51 :: Inserindo um novo produto 
+-03-04-30 19:17:51 :: SELECT max(id) FROM produto
+-03-04-30 19:17:51 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Vinho caseiro ', 70, 6, 12, 'asd', '2018-04-30', 'N', 4 )
+-03-04-30 21:10:07 :: Buscando um produto 
+-03-04-30 21:10:07 :: SELECT * FROM produto WHERE id = 3
+-03-04-30 21:10:34 :: Inserindo um novo produto 
+-03-04-30 21:10:34 :: SELECT max(id) FROM produto
+-03-04-30 21:10:34 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Vinho caseiro ', 70, 6, 12, 'asd', '2018-04-30', 'N', 1 )
+-03-04-30 21:11:15 :: Inserindo um novo produto 
+-03-04-30 21:11:15 :: SELECT max(id) FROM produto
+-03-04-30 21:11:15 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AAA ', 10, 2, 4, 'asdasgf', '2018-04-30', 'N', 2 )
+-03-04-30 21:11:30 :: Inserindo um novo produto 
+-03-04-30 21:11:30 :: SELECT max(id) FROM produto
+-03-04-30 21:11:30 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AA ', 100, 5, 7, 'ryj56', '2018-04-30', 'N', 3 )
