@@ -8,11 +8,11 @@
 		Transaction::setLogger(new LoggerTXT("../tmp/log_novo.txt"));
 		Transaction::log('Inserindo um novo produto ');
 		$p1 = new Produto;
-		$p1->descricao 		= "Pilha AA ";
-		$p1->estoque 		= 100;
-		$p1->preco_custo 	= 5;
-		$p1->preco_venda 	= 7;
-		$p1->codigo_barras 	= 'ryj56';
+		$p1->descricao 		= "Bateria AA ";
+		$p1->estoque 		= 65;
+		$p1->preco_custo 	= 35;
+		$p1->preco_venda 	= 120;
+		$p1->codigo_barras 	= 'tehr';
 		$p1->data_cadastro 	= date('Y-m-d');
 		$p1->origem 		= 'N'; 
 		echo "<pre>";

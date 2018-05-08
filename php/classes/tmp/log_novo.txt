@@ -238,3 +238,16 @@
 -03-04-30 21:11:30 :: Inserindo um novo produto 
 -03-04-30 21:11:30 :: SELECT max(id) FROM produto
 -03-04-30 21:11:30 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AA ', 100, 5, 7, 'ryj56', '2018-04-30', 'N', 3 )
+-03-05-02 22:20:57 :: Inserindo um novo produto 
+-03-05-02 22:20:57 :: SELECT max(id) FROM produto
+-03-05-02 22:20:57 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Pilha AA ', 100, 5, 7, 'ryj56', '2018-05-02', 'N', 4 )
+-03-05-02 22:21:41 :: Inserindo um novo produto 
+-03-05-02 22:21:41 :: SELECT max(id) FROM produto
+-03-05-02 22:21:41 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Bateria AA ', 65, 35, 120, 'tehr', '2018-05-02', 'N', 5 )
+-03-05-03 18:49:26 :: Inserindo um novo produto 
+-03-05-03 18:51:49 :: Inserindo um novo produto 
+-03-05-03 18:52:03 :: Inserindo um novo produto 
+-03-05-03 18:52:05 :: Inserindo um novo produto 
+-03-05-03 18:52:30 :: Inserindo um novo produto 
+-03-05-03 18:52:30 :: SELECT max(id) FROM produto
+-03-05-03 18:52:30 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Bateria AA ', 65, 35, 120, 'tehr', '2018-05-03', 'N', 6 )

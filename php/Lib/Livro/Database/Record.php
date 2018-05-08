@@ -3,7 +3,7 @@
 	namespace Livro\Database;
 	use exeption; 	 
 
-	abstract class Record implements RecordInterface{
+	 abstract class Record {
 
 		protected $data;
 

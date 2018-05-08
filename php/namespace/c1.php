@@ -5,6 +5,8 @@
 	use Library\Container\Table;
 	use SplFileInfo;
 	class Form{
+
+
 		
 		function fazAlgo(Field $x){
 
@@ -12,13 +14,11 @@
 		}
 
 		public function show(){
-			new Table;
+			$t = new Table;
 			new SplFileInfo('/tmp/shadow');
 			//echo "teste";
 		}
 	}
-
-
 
 	
 
