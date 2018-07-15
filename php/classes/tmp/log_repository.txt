@@ -1,0 +1,55 @@
+15-07-2018 16:57:41 :: SELECT * FROM produto WHERE (estoque > 1)
+15-07-2018 16:57:41 :: SELECT * FROM produto WHERE id = 1
+15-07-2018 16:57:41 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 81,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+15-07-2018 16:57:41 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 16:57:41 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 193,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 16:57:41 :: SELECT * FROM produto WHERE id = 4
+15-07-2018 16:57:41 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 111,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+15-07-2018 16:57:41 :: SELECT * FROM produto WHERE id = 5
+15-07-2018 16:57:41 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 76,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+15-07-2018 16:57:41 :: SELECT * FROM produto WHERE id = 6
+15-07-2018 16:57:41 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 76,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+15-07-2018 16:57:57 :: SELECT * FROM produto WHERE (estoque > 1)
+15-07-2018 16:57:57 :: SELECT * FROM produto WHERE id = 1
+15-07-2018 16:57:57 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 82,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+15-07-2018 16:57:57 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 16:57:57 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 194,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 16:57:57 :: SELECT * FROM produto WHERE id = 4
+15-07-2018 16:57:57 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 112,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+15-07-2018 16:57:57 :: SELECT * FROM produto WHERE id = 5
+15-07-2018 16:57:57 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 77,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+15-07-2018 16:57:57 :: SELECT * FROM produto WHERE id = 6
+15-07-2018 16:57:57 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 77,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+15-07-2018 18:03:51 :: SELECT * FROM produto WHERE (estoque > 1)
+ 
+15-07-2018 18:03:51 :: SELECT * FROM produto WHERE id = 1
+ 
+15-07-2018 18:03:51 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 83,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+ 
+15-07-2018 18:03:51 :: SELECT * FROM produto WHERE id = 3
+ 
+15-07-2018 18:03:51 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 195,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+ 
+15-07-2018 18:03:51 :: SELECT * FROM produto WHERE id = 4
+ 
+15-07-2018 18:03:51 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 113,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+ 
+15-07-2018 18:03:51 :: SELECT * FROM produto WHERE id = 5
+ 
+15-07-2018 18:03:51 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 78,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+ 
+15-07-2018 18:03:51 :: SELECT * FROM produto WHERE id = 6
+ 
+15-07-2018 18:03:51 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 78,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+ 
+15-07-2018 18:04:27 :: SELECT * FROM produto WHERE (estoque > 1)
+15-07-2018 18:04:27 :: SELECT * FROM produto WHERE id = 1
+15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 84,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+15-07-2018 18:04:27 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 196,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 18:04:27 :: SELECT * FROM produto WHERE id = 4
+15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 114,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+15-07-2018 18:04:27 :: SELECT * FROM produto WHERE id = 5
+15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 79,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+15-07-2018 18:04:27 :: SELECT * FROM produto WHERE id = 6
+15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 79,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
