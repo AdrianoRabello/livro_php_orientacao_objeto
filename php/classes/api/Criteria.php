@@ -67,10 +67,4 @@
 
   }
 
-  /*$criteria = new Criteria;
-  $criteria->add(new Filter('idade','>',60),Expression::OR_OPERATOR);
-  $criteria->add(new Filter('sexo','==','m'),Expression::AND_OPERATOR);
-
-  print $criteria->dump();*/
-
  ?>

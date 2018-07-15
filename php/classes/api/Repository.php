@@ -1,5 +1,5 @@
-<?php 
-	
+<?php
+
 	final class Repository{
 
 		private $activeRecord;
@@ -11,7 +11,7 @@
 
 
 		function load (Criteria $criteria){
-			//instancia a instrução de select 
+			//instancia a instrução de select
 			$sql = "SELECT * FROM ".constant($this->activeRecord.'::TABLENAME');
 
 			//obtem a clausula where do objeto criteria
@@ -26,7 +26,7 @@
 				$limit 	= $criteria->getProperty('limit');
 				$offset = $criteria->getProperty('offset');
 
-				// obtem a ordenação do select 
+				// obtem a ordenação do select
 				if ($order) {
 					$sql .= ' ORDER BY '.$order;
 				}
@@ -37,13 +37,13 @@
 
 				if ($offset) {
 					$sql .= ' OFFSET '.$offset;
-				}	
+				}
 			}
 
 			//echo "<pre>";
 			//print_r($criteria);
 
-			//obtem a transação ativa 
+			//obtem a transação ativa
 
 			if ($conn = Transaction::get()) {
 				Transaction::log($sql);
@@ -52,16 +52,16 @@
 
 				if ($result) {
 					while ($row = $result->fetchObject($this->activeRecord)) {
-						$results[] = $row; 
+						$results[] = $row;
 					}
 				}
 
 				return $results;
 			}else{
 				throw new Exception("Não há transação ativa", 1);
-				
+
 			}
-			
+
 		}
 
 		function delete(Criteria $criteria){
@@ -71,13 +71,13 @@
 				$sql.= ' WHERE '.$expression;
 			}
 			if ($conn = Transaction::get()) {
-				Transaction::log($sql); // registra a mensagem de log 
+				Transaction::log($sql); // registra a mensagem de log
 				$result = $conn->exec($sql);
 				return $result;
 
 			}else{
 				throw new Exception("Não há transação ativa");
-				
+
 			}
 		}
 
@@ -99,7 +99,7 @@
 				return $row[0];
 			}else{
 				throw new Exception("Não há transação ativa ");
-				
+
 			}
 		}
 	}

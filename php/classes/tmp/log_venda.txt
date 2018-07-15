@@ -23,3 +23,436 @@
 -02-02-16 15:58:44 :: Inserindo uma nova venda 
 -02-02-16 15:58:44 :: SELECT * FROM venda WHERE id = 0
 -02-02-16 15:58:44 :: INSERT INTO venda (id, data_venda)values(' ', '2018-02-16' )
+-03-07-15 11:53:41 :: testando produto 
+-03-07-15 11:54:20 :: testando produto 
+-03-07-15 11:54:20 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:30 :: testando produto 
+-03-07-15 11:54:30 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:31 :: testando produto 
+-03-07-15 11:54:31 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:31 :: testando produto 
+-03-07-15 11:54:31 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:31 :: testando produto 
+-03-07-15 11:54:31 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:31 :: testando produto 
+-03-07-15 11:54:31 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:31 :: testando produto 
+-03-07-15 11:54:32 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:32 :: testando produto 
+-03-07-15 11:54:32 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:32 :: testando produto 
+-03-07-15 11:54:32 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:32 :: testando produto 
+-03-07-15 11:54:32 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:37 :: testando produto 
+-03-07-15 11:54:37 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:37 :: testando produto 
+-03-07-15 11:54:37 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:37 :: testando produto 
+-03-07-15 11:54:37 :: SELECT * FROM produto WHERE id = 1
+-03-07-15 11:54:49 :: testando produto 
+-03-07-15 11:54:49 :: SELECT * FROM produto WHERE id = 2
+-03-07-15 11:54:50 :: testando produto 
+-03-07-15 11:54:50 :: SELECT * FROM produto WHERE id = 2
+-03-07-15 11:54:53 :: testando produto 
+-03-07-15 11:54:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:37 :: testando produto 
+-03-07-15 11:55:37 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:37 :: SELECT max(id) FROM produto
+-03-07-15 11:55:37 :: INSERT INTO produto (estoque, id)values(10, 7 )
+-03-07-15 11:55:37 :: testando produto 
+-03-07-15 11:55:37 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:37 :: SELECT max(id) FROM produto
+-03-07-15 11:55:37 :: INSERT INTO produto (estoque, id)values(10, 8 )
+-03-07-15 11:55:38 :: testando produto 
+-03-07-15 11:55:38 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:38 :: SELECT max(id) FROM produto
+-03-07-15 11:55:38 :: INSERT INTO produto (estoque, id)values(10, 9 )
+-03-07-15 11:55:50 :: testando produto 
+-03-07-15 11:55:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:52 :: testando produto 
+-03-07-15 11:55:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:52 :: testando produto 
+-03-07-15 11:55:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:53 :: testando produto 
+-03-07-15 11:55:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:53 :: testando produto 
+-03-07-15 11:55:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:53 :: testando produto 
+-03-07-15 11:55:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:55:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:05 :: testando produto 
+-03-07-15 11:56:05 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:05 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:06 :: testando produto 
+-03-07-15 11:56:06 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:06 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:06 :: testando produto 
+-03-07-15 11:56:06 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:06 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: testando produto 
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: testando produto 
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: testando produto 
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: testando produto 
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: testando produto 
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:14 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:31 :: testando produto 
+-03-07-15 11:56:31 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:31 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:32 :: testando produto 
+-03-07-15 11:56:32 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:32 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:32 :: testando produto 
+-03-07-15 11:56:32 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:32 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:33 :: testando produto 
+-03-07-15 11:56:33 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:33 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:33 :: testando produto 
+-03-07-15 11:56:33 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:33 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:47 :: testando produto 
+-03-07-15 11:56:47 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:47 :: SELECT max(id) FROM produto
+-03-07-15 11:56:47 :: INSERT INTO produto (estoque, id)values(100, 10 )
+-03-07-15 11:56:47 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:49 :: testando produto 
+-03-07-15 11:56:49 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:49 :: SELECT max(id) FROM produto
+-03-07-15 11:56:49 :: INSERT INTO produto (estoque, id)values(100, 11 )
+-03-07-15 11:56:49 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:50 :: testando produto 
+-03-07-15 11:56:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:50 :: SELECT max(id) FROM produto
+-03-07-15 11:56:50 :: INSERT INTO produto (estoque, id)values(100, 12 )
+-03-07-15 11:56:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:50 :: testando produto 
+-03-07-15 11:56:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:50 :: SELECT max(id) FROM produto
+-03-07-15 11:56:50 :: INSERT INTO produto (estoque, id)values(100, 13 )
+-03-07-15 11:56:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:50 :: testando produto 
+-03-07-15 11:56:51 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:51 :: SELECT max(id) FROM produto
+-03-07-15 11:56:51 :: INSERT INTO produto (estoque, id)values(100, 14 )
+-03-07-15 11:56:51 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:56 :: testando produto 
+-03-07-15 11:56:56 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:56 :: SELECT max(id) FROM produto
+-03-07-15 11:56:56 :: INSERT INTO produto (estoque, id)values(100, 15 )
+-03-07-15 11:56:56 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:57 :: testando produto 
+-03-07-15 11:56:57 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:57 :: SELECT max(id) FROM produto
+-03-07-15 11:56:57 :: INSERT INTO produto (estoque, id)values(100, 16 )
+-03-07-15 11:56:57 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:58 :: testando produto 
+-03-07-15 11:56:58 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:58 :: SELECT max(id) FROM produto
+-03-07-15 11:56:58 :: INSERT INTO produto (estoque, id)values(100, 17 )
+-03-07-15 11:56:58 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:58 :: testando produto 
+-03-07-15 11:56:58 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:58 :: SELECT max(id) FROM produto
+-03-07-15 11:56:58 :: INSERT INTO produto (estoque, id)values(100, 18 )
+-03-07-15 11:56:58 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:58 :: testando produto 
+-03-07-15 11:56:58 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:56:58 :: SELECT max(id) FROM produto
+-03-07-15 11:56:58 :: INSERT INTO produto (estoque, id)values(100, 19 )
+-03-07-15 11:56:58 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:00 :: testando produto 
+-03-07-15 11:57:00 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:00 :: SELECT max(id) FROM produto
+-03-07-15 11:57:00 :: INSERT INTO produto (estoque, id)values(100, 20 )
+-03-07-15 11:57:00 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: testando produto 
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: SELECT max(id) FROM produto
+-03-07-15 11:57:01 :: INSERT INTO produto (estoque, id)values(100, 21 )
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: testando produto 
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: SELECT max(id) FROM produto
+-03-07-15 11:57:01 :: INSERT INTO produto (estoque, id)values(100, 22 )
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: testando produto 
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: SELECT max(id) FROM produto
+-03-07-15 11:57:01 :: INSERT INTO produto (estoque, id)values(100, 23 )
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: testando produto 
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:01 :: SELECT max(id) FROM produto
+-03-07-15 11:57:01 :: INSERT INTO produto (estoque, id)values(100, 24 )
+-03-07-15 11:57:01 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:02 :: testando produto 
+-03-07-15 11:57:02 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:02 :: SELECT max(id) FROM produto
+-03-07-15 11:57:02 :: INSERT INTO produto (estoque, id)values(100, 25 )
+-03-07-15 11:57:02 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:02 :: testando produto 
+-03-07-15 11:57:02 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:02 :: SELECT max(id) FROM produto
+-03-07-15 11:57:02 :: INSERT INTO produto (estoque, id)values(100, 26 )
+-03-07-15 11:57:02 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:02 :: testando produto 
+-03-07-15 11:57:02 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:02 :: SELECT max(id) FROM produto
+-03-07-15 11:57:02 :: INSERT INTO produto (estoque, id)values(100, 27 )
+-03-07-15 11:57:02 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:03 :: testando produto 
+-03-07-15 11:57:03 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:03 :: SELECT max(id) FROM produto
+-03-07-15 11:57:03 :: INSERT INTO produto (estoque, id)values(100, 28 )
+-03-07-15 11:57:03 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:28 :: testando produto 
+-03-07-15 11:57:28 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:28 :: SELECT max(id) FROM produto
+-03-07-15 11:57:28 :: INSERT INTO produto (estoque, id)values(1000, 29 )
+-03-07-15 11:57:28 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:29 :: testando produto 
+-03-07-15 11:57:29 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:29 :: SELECT max(id) FROM produto
+-03-07-15 11:57:29 :: INSERT INTO produto (estoque, id)values(1000, 30 )
+-03-07-15 11:57:29 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:29 :: testando produto 
+-03-07-15 11:57:29 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:29 :: SELECT max(id) FROM produto
+-03-07-15 11:57:29 :: INSERT INTO produto (estoque, id)values(1000, 31 )
+-03-07-15 11:57:29 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:29 :: testando produto 
+-03-07-15 11:57:29 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:29 :: SELECT max(id) FROM produto
+-03-07-15 11:57:29 :: INSERT INTO produto (estoque, id)values(1000, 32 )
+-03-07-15 11:57:29 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:30 :: testando produto 
+-03-07-15 11:57:30 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:30 :: SELECT max(id) FROM produto
+-03-07-15 11:57:30 :: INSERT INTO produto (estoque, id)values(1000, 33 )
+-03-07-15 11:57:30 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:30 :: testando produto 
+-03-07-15 11:57:30 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:57:30 :: SELECT max(id) FROM produto
+-03-07-15 11:57:30 :: INSERT INTO produto (estoque, id)values(1000, 34 )
+-03-07-15 11:57:30 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:58:54 :: testando produto 
+-03-07-15 11:58:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:58:54 :: SELECT max(id) FROM produto
+-03-07-15 11:58:54 :: INSERT INTO produto (estoque, id)values(1000, 35 )
+-03-07-15 11:58:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:58:54 :: testando produto 
+-03-07-15 11:58:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:58:54 :: SELECT max(id) FROM produto
+-03-07-15 11:58:54 :: INSERT INTO produto (estoque, id)values(1000, 36 )
+-03-07-15 11:58:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:58:54 :: testando produto 
+-03-07-15 11:58:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 11:58:54 :: SELECT max(id) FROM produto
+-03-07-15 11:58:54 :: INSERT INTO produto (estoque, id)values(1000, 37 )
+-03-07-15 11:58:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:22:25 :: testando produto 
+-03-07-15 12:22:25 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:22:25 :: SELECT max(id) FROM produto
+-03-07-15 12:22:25 :: INSERT INTO produto (estoque, id)values(1000, 38 )
+-03-07-15 12:22:25 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:22:26 :: testando produto 
+-03-07-15 12:22:26 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:22:26 :: SELECT max(id) FROM produto
+-03-07-15 12:22:26 :: INSERT INTO produto (estoque, id)values(1000, 39 )
+-03-07-15 12:22:26 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:24 :: testando produto 
+-03-07-15 12:23:24 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:24 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:24 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:24 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 110,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 12:23:24 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:26 :: testando produto 
+-03-07-15 12:23:26 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:26 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:26 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:26 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 120,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 12:23:26 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:27 :: testando produto 
+-03-07-15 12:23:27 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:27 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:27 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:23:27 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 130,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 12:23:27 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:00 :: testando produto 
+-03-07-15 12:24:23 :: testando produto 
+-03-07-15 12:24:23 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:23 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:23 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:23 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 140,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 12:24:37 :: testando produto 
+-03-07-15 12:24:37 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:37 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:37 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:24:37 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 150,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 12:25:50 :: testando produto 
+-03-07-15 12:25:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:50 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:51 :: testando produto 
+-03-07-15 12:25:51 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:51 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:51 :: testando produto 
+-03-07-15 12:25:51 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:51 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: testando produto 
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: testando produto 
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: testando produto 
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: testando produto 
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:52 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: testando produto 
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: testando produto 
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: testando produto 
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: testando produto 
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:53 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:54 :: testando produto 
+-03-07-15 12:25:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:54 :: testando produto 
+-03-07-15 12:25:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:54 :: testando produto 
+-03-07-15 12:25:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:54 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:55 :: testando produto 
+-03-07-15 12:25:55 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:55 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:55 :: testando produto 
+-03-07-15 12:25:55 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:25:55 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:26:38 :: testando produto 
+-03-07-15 12:26:38 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:26:38 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 12:26:38 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:09 :: testando produto 
+-03-07-15 13:05:09 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:09 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:09 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:09 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 13:05:19 :: testando produto 
+-03-07-15 13:05:19 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:19 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:19 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:19 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+-03-07-15 13:05:25 :: testando produto 
+-03-07-15 13:05:25 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:25 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:25 :: SELECT * FROM produto WHERE id = 3
+-03-07-15 13:05:25 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:47:38 :: testando produto 
+15-07-2018 13:47:38 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:38 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:38 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:38 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:47:39 :: testando produto 
+15-07-2018 13:47:39 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:39 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:39 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:39 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:47:46 :: testando produto 
+15-07-2018 13:47:46 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:46 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:46 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:46 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:47:54 :: testando produto 
+15-07-2018 13:47:54 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:54 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:54 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:54 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:47:54 :: testando produto 
+15-07-2018 13:47:54 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:54 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:54 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:54 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:47:55 :: testando produto 
+15-07-2018 13:47:55 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:55 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:55 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:47:55 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:08 :: testando produto 
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:08 :: testando produto 
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:08 :: testando produto 
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:08 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:09 :: testando produto 
+15-07-2018 13:48:09 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:09 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:09 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:09 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:09 :: testando produto 
+15-07-2018 13:48:09 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:09 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:09 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:09 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:10 :: testando produto 
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:10 :: testando produto 
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:10 :: testando produto 
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:10 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:15 :: testando produto 
+15-07-2018 13:48:15 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:15 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:15 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:15 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 160,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:16 :: testando produto 
+15-07-2018 13:48:16 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:16 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:16 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:16 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 170,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+15-07-2018 13:48:43 :: testando produto 
+15-07-2018 13:48:43 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:43 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:43 :: SELECT * FROM produto WHERE id = 3
+15-07-2018 13:48:43 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 180,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3

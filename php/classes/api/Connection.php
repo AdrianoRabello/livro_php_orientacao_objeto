@@ -22,21 +22,21 @@
        $type = isset($db['type']) ? $db['type']: NULL;
        $port = isset($db['port']) ? $db['port']: NULL;
 
-       switch ($type) {
-         case 'pgsql':
-           $port = $port ? $port : '5432';
-            $con = new PDO("pgsql:dbdane={$name}; user={$user}; password={$pass}; host ={$host}; port={$port};");
-           break;
+      switch ($type) {
+        case 'pgsql':
+          $port = $port ? $port : '5432';
+          $con = new PDO("pgsql:dbdane={$name}; user={$user}; password={$pass}; host ={$host}; port={$port};");
+        break;
 
-         case 'mysql':
-           $port = $port ? $port : '3306';
+        case 'mysql':
+          $port = $port ? $port : '3306';
             //$con = new PDO("mysql:host={$host},1433;dbname={$name}", $user, $pass);
-            $con = new PDO("mysql:host=$host;dbname=$name;charset=utf8",$user,$pass);
-           break;
+          $con = new PDO("mysql:host=$host;dbname=$name;charset=utf8",$user,$pass);
+        break;
 
-         default:
+        default:
           echo "Não foi possivel conectar";
-           break;
+        break;
        }
 
        // define para que o PDO lance exceções

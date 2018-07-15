@@ -7,7 +7,7 @@
 
       public function write($message){
         date_default_timezone_set('America/Sao_Paulo');
-        $time = date('T-m-d H:i:s');
+        $time = date('d-m-Y H:i:s');
 
         $text  = "$time :: $message\n";
 
