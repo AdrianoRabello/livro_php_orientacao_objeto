@@ -1,5 +1,8 @@
 <?php
+
 namespace Livro\Database;
+
+
 
 /**
  * Permite definir filtros de seleção
@@ -10,7 +13,7 @@ class Filter extends Expression
     private $variable; // variável
     private $operator; // operador
     private $value;    // valor
-    
+
     /**
      * Instancia um novo filtro
      * @param $variable = variável
@@ -22,12 +25,12 @@ class Filter extends Expression
         // armazena as propriedades
         $this->variable = $variable;
         $this->operator = $operator;
-        
+
         // transforma o valor de acordo com certas regras
         // antes de atribuir à propriedade $this->value
         $this->value     = $this->transform($value);
     }
-    
+
     /**
      * Recebe um valor e faz as modificações necessárias
      *   para ele ser interpretado pelo banco de dados
@@ -67,7 +70,7 @@ class Filter extends Expression
             // armazena NULL
             $result = 'NULL';
         }
-        
+
         // caso seja booleano
         else if (is_bool($value))
         {
@@ -81,7 +84,7 @@ class Filter extends Expression
         // retorna o valor
         return $result;
     }
-    
+
     /**
      * Retorna o filtro em forma de expressão
      */

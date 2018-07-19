@@ -1,5 +1,5 @@
-<?php 
-	
+<?php
+
 	// Lib loader
 	require_once "Lib/Livro/Core/ClassLoader.php";
 	$al = new Livro\Core\ClassLoader;
@@ -15,7 +15,7 @@
 	$al->register();
 
 	$pagina = new PessoaControl;
-	$pagina->show( $_GET);
+	$pagina->show($_GET);
 
 
 

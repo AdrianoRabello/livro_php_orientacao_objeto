@@ -1,6 +1,6 @@
 <?php
 namespace Livro\Database;
-
+require 'Filter.php';
 /**
  * Permite definição de critérios
  * @author Pablo Dall'Oglio
@@ -10,7 +10,7 @@ class Criteria extends Expression
     private $expressions; // armazena a lista de expressões
     private $operators;     // armazena a lista de operadores
     private $properties;    // propriedades do critério
-    
+
     /**
      * Método Construtor
      */
@@ -19,7 +19,7 @@ class Criteria extends Expression
         $this->expressions = array();
         $this->operators = array();
     }
-    
+
     /**
      * Adiciona uma expressão ao critério
      * @param $expression = expressão (objeto Expression)
@@ -32,12 +32,12 @@ class Criteria extends Expression
         {
             $operator = NULL;
         }
-        
+
         // agrega o resultado da expressão à lista de expressões
         $this->expressions[] = $expression;
         $this->operators[]    = $operator;
     }
-    
+
     /**
      * Retorna a expressão final
      */
@@ -60,7 +60,7 @@ class Criteria extends Expression
             }
         }
     }
-    
+
     /**
      * Define o valor de uma propriedade
      * @param $property = propriedade
@@ -77,7 +77,7 @@ class Criteria extends Expression
             $this->properties[$property] = NULL;
         }
     }
-    
+
     /**
      * Retorna o valor de uma propriedade
      * @param $property = propriedade

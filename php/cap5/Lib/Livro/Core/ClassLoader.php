@@ -57,7 +57,7 @@ class ClassLoader
 
             // remove the trailing namespace separator for the next iteration
             // of strrpos()
-            $prefix = rtrim($prefix, '\\');   
+            $prefix = rtrim($prefix, '\\');
         }
 
         // never found a mapped file
@@ -94,10 +94,10 @@ class ClassLoader
 
     protected function requireFile($file)
     {
-        /*if (file_exists($file)) {
+        if (file_exists($file)) {
             require $file;
             return true;
         }
-        return false;*/
+        return false;
     }
 }

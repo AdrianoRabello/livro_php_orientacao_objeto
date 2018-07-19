@@ -1,19 +1,21 @@
-<?php 
+<?php
 
+	// se eu extender a classe
+	//use Livro\Control\Page;
 	use Livro\Database\Transaction;
 	use Livro\Database\Repository;
 	use Livro\Database\Criteria;
 
 
 	class PessoaControl{
-		
+
 		function __construct(){
-			
+
 		}
 
 		public function listar(){
 
-			try {			
+			try {
 				Transaction::open('livro');
 				$criteria = new Criteria;
 				$criteria->setProperty('order','id');
@@ -21,17 +23,17 @@
 				$pessoas = $repository->load($criteria);
 
 				if ($pessoas) {
-					
+
 					foreach ($pessoas as $pessoa) {
-						
+
 						print $pessoa->id ."  " .$pessoa->name."<br>";
 					}
 				}
 				Transaction::close();
 
 			} catch (Exception $e) {
-				
-				print $e->getMessage();		
+
+				print $e->getMessage();
 			}
 		}
 
@@ -42,7 +44,7 @@
 				$this->listar();
 			}
 		}
-		
+
 	}
 
 

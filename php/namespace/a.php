@@ -1,17 +1,17 @@
-<?php 
+<?php
 
-	
+
 	namespace Aplication;
 
-	class Form{	
+	class Form{
 
-		function escrever($msg){
+		public function escrever($msg){
 
-			echo "recebi : '".$msg."' como parametro";
+			echo " <br><br>recebi : '".$msg."' como parametro";
 		}
 
 	}
-	
+
 	class Field{
 
 	}

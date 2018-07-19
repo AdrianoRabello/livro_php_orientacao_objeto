@@ -1,14 +1,14 @@
-<?php 
-	
+<?php
+
 	//spl_autoload_register(array( new LibraryLoader, 'loadClass'));
 
 	/**
-	* 
+	*
 	*/
 	class LibraryLoader{
-		
+
 		function __construct(){
-			
+
 		}
 
 		public static function loadClass($class){

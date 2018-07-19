@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	use Livro\Database\Transaction;
 	use Livro\Database\Repository;
@@ -6,14 +6,15 @@
 
 
 	class PessoaControl{
-		
+
+
 		function __construct(){
-			
+
 		}
 
 		public function listar(){
 
-			try {			
+			try {
 				Transaction::open('livro');
 				$criteria = new Criteria;
 				$criteria->setProperty('order','id');
@@ -21,19 +22,21 @@
 				$pessoas = $repository->load($criteria);
 
 				if ($pessoas) {
-					
+
 					foreach ($pessoas as $pessoa) {
-						
-						print $pessoa->id ."  " .$pessoa->name."<br>";
+
+						print $pessoa->id ."  " .$pessoa->nome."<br>";
 					}
 				}
 				Transaction::close();
 
 			} catch (Exception $e) {
-				
-				print $e->getMessage();		
+
+				print $e->getMessage();
 			}
 		}
+
+
 
 
 		public function show($param){
@@ -41,8 +44,10 @@
 			if ($param['method'] == 'listar') {
 				$this->listar();
 			}
+
+
 		}
-		
+
 	}
 
 
