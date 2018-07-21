@@ -1,13 +1,13 @@
 <?php
-use Livro\Control\Page;
+use Livro\Control\Page; 
 use Livro\Widgets\Form\SimpleForm;
 
-class SimpleFormControl extends Page
-{
-    public function __construct()
-    {
+class SimpleFormControl extends Page 
+{ 
+    public function __construct() 
+    { 
         parent::__construct();
-
+        
         $form = new SimpleForm('my_form');
         $form->setTitle('Título');
         $form->addField('Nome', 'name', 'text', 'Maria', 'form-control');

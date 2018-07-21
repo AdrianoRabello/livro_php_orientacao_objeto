@@ -3,7 +3,7 @@ namespace Livro\Widgets\Base;
 
 /**
  * Classe suporte para tags
- * @author Pablo Dall'Oglio
+ *
  */
 class Element{
     protected $tagname;       // nome da TAG
@@ -109,8 +109,8 @@ class Element{
     /**
      * Fecha uma tag HTML
      */
-    private function close()
-    {
+    private function close() {
         echo "</{$this->tagname}>\n";
     }
+
 }
