@@ -456,3 +456,617 @@
 15-07-2018 13:48:43 :: SELECT * FROM produto WHERE id = 3
 15-07-2018 13:48:43 :: SELECT * FROM produto WHERE id = 3
 15-07-2018 13:48:43 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 180,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+18-12-2018 19:25:43 :: Inserindo uma nova venda 
+18-12-2018 19:25:43 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:43 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:46 :: Inserindo uma nova venda 
+18-12-2018 19:25:46 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:46 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:47 :: Inserindo uma nova venda 
+18-12-2018 19:25:47 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:47 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:47 :: Inserindo uma nova venda 
+18-12-2018 19:25:47 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:47 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:56 :: Inserindo uma nova venda 
+18-12-2018 19:25:56 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:56 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:57 :: Inserindo uma nova venda 
+18-12-2018 19:25:57 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:57 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:57 :: Inserindo uma nova venda 
+18-12-2018 19:25:57 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:57 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:25:57 :: Inserindo uma nova venda 
+18-12-2018 19:25:57 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:25:57 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:26:44 :: Inserindo uma nova venda 
+18-12-2018 19:26:44 :: SELECT * FROM venda WHERE id = 0
+18-12-2018 19:26:44 :: INSERT INTO venda (id, data_venda)values(' ', '2018-12-18' )
+18-12-2018 19:27:00 :: Inserindo uma nova venda 
+18-12-2018 19:27:00 :: SELECT max(id) FROM venda
+18-12-2018 19:27:00 :: INSERT INTO venda (data_venda, id)values('2018-12-18', 10 )
+18-12-2018 20:39:20 :: testando produto 
+18-12-2018 20:40:42 :: testando produto 
+18-12-2018 20:40:43 :: testando produto 
+18-12-2018 20:40:44 :: testando produto 
+18-12-2018 20:40:44 :: testando produto 
+18-12-2018 20:40:44 :: testando produto 
+18-12-2018 20:40:55 :: testando produto 
+18-12-2018 20:41:05 :: testando produto 
+18-12-2018 20:41:05 :: testando produto 
+18-12-2018 20:41:06 :: testando produto 
+18-12-2018 20:41:06 :: testando produto 
+18-12-2018 20:41:06 :: testando produto 
+18-12-2018 20:41:06 :: testando produto 
+18-12-2018 20:41:20 :: testando produto 
+18-12-2018 21:40:15 :: testando produto 
+18-12-2018 21:40:16 :: testando produto 
+18-12-2018 21:40:16 :: testando produto 
+18-12-2018 21:40:16 :: testando produto 
+18-12-2018 21:40:25 :: testando produto 
+18-12-2018 21:40:32 :: testando produto 
+18-12-2018 21:40:33 :: testando produto 
+18-12-2018 21:40:33 :: testando produto 
+18-12-2018 21:40:33 :: testando produto 
+18-12-2018 21:40:44 :: testando produto 
+18-12-2018 21:41:19 :: testando produto 
+18-12-2018 21:41:37 :: testando produto 
+18-12-2018 21:42:12 :: testando produto 
+18-12-2018 21:42:46 :: testando produto 
+18-12-2018 21:42:55 :: testando produto 
+18-12-2018 21:43:24 :: testando produto 
+18-12-2018 21:43:29 :: testando produto 
+18-12-2018 21:47:47 :: testando produto 
+18-12-2018 21:47:54 :: testando produto 
+18-12-2018 21:47:54 :: SELECT max(id) FROM produto
+18-12-2018 21:47:54 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('Mouse', 10, 20, 50, 'asdasd', '2018-12-18', 'N', 7 )
+18-12-2018 21:49:14 :: testando produto 
+18-12-2018 21:49:14 :: SELECT max(id) FROM produto
+18-12-2018 21:49:14 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 8 )
+18-12-2018 21:50:15 :: testando produto 
+18-12-2018 21:50:15 :: SELECT max(id) FROM produto
+18-12-2018 21:50:15 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 9 )
+18-12-2018 21:50:58 :: testando produto 
+18-12-2018 21:51:22 :: testando produto 
+18-12-2018 21:51:22 :: SELECT max(id) FROM produto
+18-12-2018 21:51:22 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 10 )
+18-12-2018 21:52:18 :: testando produto 
+18-12-2018 21:52:18 :: SELECT max(id) FROM produto
+18-12-2018 21:52:18 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 11 )
+18-12-2018 21:52:29 :: testando produto 
+18-12-2018 21:52:29 :: SELECT max(id) FROM produto
+18-12-2018 21:52:29 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 12 )
+18-12-2018 21:53:58 :: testando produto 
+18-12-2018 21:53:58 :: SELECT max(id) FROM produto
+18-12-2018 21:53:58 :: INSERT INTO produto (descricao, estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values('teste', 10, 20, 50, 'asdasd', '2018-12-18', 'N', 13 )
+18-12-2018 21:54:43 :: testando produto 
+18-12-2018 21:54:43 :: SELECT max(id) FROM produto
+18-12-2018 21:54:43 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 14 )
+18-12-2018 21:56:15 :: testando produto 
+18-12-2018 21:56:27 :: testando produto 
+18-12-2018 21:56:33 :: testando produto 
+18-12-2018 21:56:44 :: testando produto 
+18-12-2018 21:56:44 :: SELECT max(id) FROM produto
+18-12-2018 21:56:44 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 15 )
+18-12-2018 21:57:20 :: testando produto 
+18-12-2018 21:57:20 :: SELECT max(id) FROM produto
+18-12-2018 21:57:20 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 16 )
+18-12-2018 21:58:42 :: testando produto 
+18-12-2018 21:58:42 :: SELECT max(id) FROM produto
+18-12-2018 21:58:42 :: INSERT INTO produto (estoque, preco_custo, preco_venda, codigo_barras, data_cadastro, origem, id)values(10, 20, 50, 'asdasd', '2018-12-18', 'N', 17 )
+18-12-2018 22:01:58 :: testando produto 
+18-12-2018 22:01:58 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:01:58 :: SELECT max(id) FROM produto
+18-12-2018 22:01:58 :: INSERT INTO produto (id)values(8 )
+18-12-2018 22:05:39 :: testando produto 
+18-12-2018 22:05:39 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:05:39 :: SELECT max(id) FROM produto
+18-12-2018 22:05:39 :: INSERT INTO produto (id)values(9 )
+18-12-2018 22:05:40 :: testando produto 
+18-12-2018 22:05:40 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:05:40 :: SELECT max(id) FROM produto
+18-12-2018 22:05:40 :: INSERT INTO produto (id)values(10 )
+18-12-2018 22:05:40 :: testando produto 
+18-12-2018 22:05:40 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:05:40 :: SELECT max(id) FROM produto
+18-12-2018 22:05:40 :: INSERT INTO produto (id)values(11 )
+18-12-2018 22:05:40 :: testando produto 
+18-12-2018 22:05:40 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:05:40 :: SELECT max(id) FROM produto
+18-12-2018 22:05:40 :: INSERT INTO produto (id)values(12 )
+18-12-2018 22:05:41 :: testando produto 
+18-12-2018 22:05:41 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:05:41 :: SELECT max(id) FROM produto
+18-12-2018 22:05:41 :: INSERT INTO produto (id)values(13 )
+18-12-2018 22:05:41 :: testando produto 
+18-12-2018 22:05:41 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:05:41 :: SELECT max(id) FROM produto
+18-12-2018 22:05:41 :: INSERT INTO produto (id)values(14 )
+18-12-2018 22:06:52 :: testando produto 
+18-12-2018 22:06:52 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:06:52 :: SELECT max(id) FROM produto
+18-12-2018 22:06:52 :: INSERT INTO produto (id)values(15 )
+18-12-2018 22:07:19 :: testando produto 
+18-12-2018 22:07:19 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:07:19 :: SELECT max(id) FROM produto
+18-12-2018 22:07:19 :: INSERT INTO produto (id)values(8 )
+18-12-2018 22:08:34 :: testando produto 
+18-12-2018 22:08:34 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:08:34 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:08:34 :: UPDATE produto SET descricao = 'Mouse',estoque = 30,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+18-12-2018 22:08:40 :: testando produto 
+18-12-2018 22:08:40 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:08:40 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:08:40 :: UPDATE produto SET descricao = 'Mouse',estoque = 50,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+18-12-2018 22:09:50 :: testando produto 
+18-12-2018 22:10:50 :: testando produto 
+18-12-2018 22:10:51 :: testando produto 
+18-12-2018 22:10:51 :: testando produto 
+18-12-2018 22:10:51 :: testando produto 
+18-12-2018 22:10:51 :: testando produto 
+18-12-2018 22:11:06 :: testando produto 
+18-12-2018 22:11:07 :: testando produto 
+18-12-2018 22:11:07 :: testando produto 
+18-12-2018 22:11:07 :: testando produto 
+18-12-2018 22:11:08 :: testando produto 
+18-12-2018 22:11:08 :: testando produto 
+18-12-2018 22:11:08 :: testando produto 
+18-12-2018 22:11:17 :: testando produto 
+18-12-2018 22:11:17 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:11:17 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:11:17 :: UPDATE produto SET descricao = 'Mouse',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+18-12-2018 22:11:31 :: testando produto 
+18-12-2018 22:11:31 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:11:31 :: SELECT * FROM produto WHERE id = 7
+18-12-2018 22:11:31 :: UPDATE produto SET descricao = 'Mouse',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:44:35 :: testando produto 
+20-12-2018 16:44:35 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:44:35 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:44:35 :: UPDATE produto SET descricao = 'Mouse',estoque = 51,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 0 WHERE id=7
+20-12-2018 16:45:12 :: testando produto 
+20-12-2018 16:45:12 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:45:12 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:45:12 :: UPDATE produto SET descricao = 'Mouse',estoque = 51,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 0 WHERE id=7
+20-12-2018 16:46:24 :: testando produto 
+20-12-2018 16:46:24 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:46:24 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:46:24 :: UPDATE produto SET descricao = 0,estoque = 51,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:46:58 :: testando produto 
+20-12-2018 16:46:58 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:46:58 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:46:58 :: UPDATE produto SET descricao = 0,estoque = 51,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:47:25 :: testando produto 
+20-12-2018 16:47:25 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:47:49 :: testando produto 
+20-12-2018 16:47:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:03 :: testando produto 
+20-12-2018 16:48:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:03 :: UPDATE produto SET descricao = '0escrevr',estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:48:25 :: testando produto 
+20-12-2018 16:48:25 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:25 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:25 :: UPDATE produto SET descricao = '0escrevr',estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:35 :: testando produto 
+20-12-2018 16:48:35 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:35 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:35 :: UPDATE produto SET descricao = '0escrevr',estoque = '511',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:36 :: testando produto 
+20-12-2018 16:48:36 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:36 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:36 :: UPDATE produto SET descricao = '0escrevr',estoque = '511',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:45 :: testando produto 
+20-12-2018 16:48:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:45 :: UPDATE produto SET descricao = '0escrevr',estoque = 1,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:45 :: testando produto 
+20-12-2018 16:48:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:45 :: UPDATE produto SET descricao = '0escrevr',estoque = 1,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:46 :: testando produto 
+20-12-2018 16:48:46 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:46 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:46 :: UPDATE produto SET descricao = '0escrevr',estoque = 1,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:46 :: testando produto 
+20-12-2018 16:48:46 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:46 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:46 :: UPDATE produto SET descricao = '0escrevr',estoque = 1,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:46 :: testando produto 
+20-12-2018 16:48:46 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:46 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:46 :: UPDATE produto SET descricao = '0escrevr',estoque = 1,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:51 :: testando produto 
+20-12-2018 16:48:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:51 :: UPDATE produto SET descricao = '0escrevr',estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:52 :: testando produto 
+20-12-2018 16:48:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:52 :: UPDATE produto SET descricao = '0escrevr',estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:52 :: testando produto 
+20-12-2018 16:48:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:52 :: UPDATE produto SET descricao = '0escrevr',estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:48:52 :: testando produto 
+20-12-2018 16:48:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:48:52 :: UPDATE produto SET descricao = '0escrevr',estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:03 :: testando produto 
+20-12-2018 16:49:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:03 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:04 :: testando produto 
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:04 :: testando produto 
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:04 :: testando produto 
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:04 :: testando produto 
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:04 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:05 :: testando produto 
+20-12-2018 16:49:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:05 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N',nome = 'teste' WHERE id=7
+20-12-2018 16:49:12 :: testando produto 
+20-12-2018 16:49:12 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:12 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:12 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:49:21 :: testando produto 
+20-12-2018 16:49:21 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:21 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:22 :: UPDATE produto SET descricao = '0escrevr',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:49:42 :: testando produto 
+20-12-2018 16:49:42 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:42 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:42 :: UPDATE produto SET descricao = '00',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:49:49 :: testando produto 
+20-12-2018 16:49:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:49 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:49:50 :: testando produto 
+20-12-2018 16:49:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:50 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:49:50 :: testando produto 
+20-12-2018 16:49:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:49:50 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:50:26 :: testando produto 
+20-12-2018 16:50:26 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:26 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:26 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:50:30 :: testando produto 
+20-12-2018 16:50:30 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:30 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:30 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:50:31 :: testando produto 
+20-12-2018 16:50:31 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:31 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:31 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:50:31 :: testando produto 
+20-12-2018 16:50:31 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:31 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:31 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:50:45 :: testando produto 
+20-12-2018 16:50:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:45 :: UPDATE produto SET estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:50:51 :: testando produto 
+20-12-2018 16:50:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:52 :: testando produto 
+20-12-2018 16:50:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:52 :: testando produto 
+20-12-2018 16:50:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:50:52 :: testando produto 
+20-12-2018 16:50:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:51:16 :: testando produto 
+20-12-2018 16:51:16 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:51:25 :: testando produto 
+20-12-2018 16:51:25 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:51:30 :: testando produto 
+20-12-2018 16:51:30 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:13 :: testando produto 
+20-12-2018 16:52:13 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:13 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:13 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:17 :: testando produto 
+20-12-2018 16:52:17 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:17 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:17 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:17 :: testando produto 
+20-12-2018 16:52:17 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:17 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:17 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:18 :: testando produto 
+20-12-2018 16:52:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:18 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:18 :: testando produto 
+20-12-2018 16:52:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:18 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:19 :: testando produto 
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:19 :: testando produto 
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:19 :: testando produto 
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:19 :: testando produto 
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:19 :: testando produto 
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:20 :: testando produto 
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:20 :: testando produto 
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:20 :: testando produto 
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:20 :: testando produto 
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:20 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:34 :: testando produto 
+20-12-2018 16:52:34 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:34 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:34 :: UPDATE produto SET descricao = 0,estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:43 :: testando produto 
+20-12-2018 16:52:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:43 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:47 :: testando produto 
+20-12-2018 16:52:47 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:47 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:47 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:48 :: testando produto 
+20-12-2018 16:52:48 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:48 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:48 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:48 :: testando produto 
+20-12-2018 16:52:48 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:48 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:48 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:49 :: testando produto 
+20-12-2018 16:52:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:49 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:49 :: testando produto 
+20-12-2018 16:52:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:49 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:49 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:50 :: testando produto 
+20-12-2018 16:52:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:50 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:50 :: testando produto 
+20-12-2018 16:52:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:50 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:50 :: testando produto 
+20-12-2018 16:52:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:50 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:51 :: testando produto 
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:51 :: testando produto 
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:51 :: testando produto 
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:51 :: testando produto 
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:52 :: testando produto 
+20-12-2018 16:52:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:52 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:52:52 :: testando produto 
+20-12-2018 16:52:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:52 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:52:52 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:40 :: testando produto 
+20-12-2018 16:53:40 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:40 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:40 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:41 :: testando produto 
+20-12-2018 16:53:41 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:41 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:41 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:41 :: testando produto 
+20-12-2018 16:53:41 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:41 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:41 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:42 :: testando produto 
+20-12-2018 16:53:42 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:42 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:42 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:42 :: testando produto 
+20-12-2018 16:53:42 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:42 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:42 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:43 :: testando produto 
+20-12-2018 16:53:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:43 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:43 :: testando produto 
+20-12-2018 16:53:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:43 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:43 :: testando produto 
+20-12-2018 16:53:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:43 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:43 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:44 :: testando produto 
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:44 :: testando produto 
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:44 :: testando produto 
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:44 :: testando produto 
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:44 :: testando produto 
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:44 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:45 :: testando produto 
+20-12-2018 16:53:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:45 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:45 :: testando produto 
+20-12-2018 16:53:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:45 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:45 :: testando produto 
+20-12-2018 16:53:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:45 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:45 :: UPDATE produto SET descricao = 'Mouseteste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:50 :: testando produto 
+20-12-2018 16:53:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:50 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:50 :: testando produto 
+20-12-2018 16:53:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:50 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:50 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:51 :: testando produto 
+20-12-2018 16:53:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:51 :: testando produto 
+20-12-2018 16:53:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:53:51 :: testando produto 
+20-12-2018 16:53:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:51 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:53:51 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:03 :: testando produto 
+20-12-2018 16:54:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:03 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:03 :: testando produto 
+20-12-2018 16:54:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:03 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:03 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:04 :: testando produto 
+20-12-2018 16:54:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:04 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:04 :: testando produto 
+20-12-2018 16:54:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:04 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:04 :: testando produto 
+20-12-2018 16:54:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:04 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:04 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:05 :: testando produto 
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:05 :: testando produto 
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:05 :: testando produto 
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:05 :: testando produto 
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:05 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:06 :: testando produto 
+20-12-2018 16:54:06 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:06 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:06 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:06 :: testando produto 
+20-12-2018 16:54:06 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:06 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:06 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:06 :: testando produto 
+20-12-2018 16:54:06 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:06 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:06 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:07 :: testando produto 
+20-12-2018 16:54:07 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:07 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:07 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:07 :: testando produto 
+20-12-2018 16:54:07 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:07 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:07 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:09 :: testando produto 
+20-12-2018 16:54:09 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:09 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:09 :: UPDATE produto SET descricao = 'Mouse teste+1',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:18 :: testando produto 
+20-12-2018 16:54:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:18 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:18 :: testando produto 
+20-12-2018 16:54:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:18 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:18 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:19 :: testando produto 
+20-12-2018 16:54:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:19 :: testando produto 
+20-12-2018 16:54:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:19 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:19 :: UPDATE produto SET descricao = 'Mouse teste',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:26 :: testando produto 
+20-12-2018 16:54:26 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:26 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:26 :: UPDATE produto SET descricao = 'Mouse',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:27 :: testando produto 
+20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:27 :: UPDATE produto SET descricao = 'Mouse',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:27 :: testando produto 
+20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:27 :: UPDATE produto SET descricao = 'Mouse',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 16:54:27 :: testando produto 
+20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 16:54:27 :: UPDATE produto SET descricao = 'Mouse',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7

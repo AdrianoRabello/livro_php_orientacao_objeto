@@ -4,17 +4,14 @@ namespace Livro\Core;
 /**
  * Carrega a classe do framework
  */
-class ClassLoader
-{
+class ClassLoader{
     protected $prefixes = array();
 
-    public function register()
-    {
+    public function register(){
         spl_autoload_register(array($this, 'loadClass'));
     }
 
-    public function addNamespace($prefix, $base_dir, $prepend = false)
-    {
+    public function addNamespace($prefix, $base_dir, $prepend = false){
         // normalize namespace prefix
         $prefix = trim($prefix, '\\') . '\\';
 

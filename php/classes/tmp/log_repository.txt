@@ -53,3 +53,77 @@
 15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 79,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
 15-07-2018 18:04:27 :: SELECT * FROM produto WHERE id = 6
 15-07-2018 18:04:27 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 79,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE (estoque > 1)
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE id = 1
+20-12-2018 20:42:21 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 85,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:42:21 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 197,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE id = 4
+20-12-2018 20:42:21 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 115,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE id = 5
+20-12-2018 20:42:21 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 80,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE id = 6
+20-12-2018 20:42:21 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 80,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+20-12-2018 20:42:21 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 20:42:21 :: UPDATE produto SET descricao = 0,estoque = 52,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE (estoque > 51)
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE id = 1
+20-12-2018 20:42:29 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 86,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:42:29 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 198,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE id = 4
+20-12-2018 20:42:29 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 116,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE id = 5
+20-12-2018 20:42:29 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 81,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE id = 6
+20-12-2018 20:42:29 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 81,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+20-12-2018 20:42:29 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 20:42:29 :: UPDATE produto SET descricao = 0,estoque = 53,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE (estoque > 51)
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE id = 1
+20-12-2018 20:42:30 :: UPDATE produto SET descricao = 'Vinho caseiro ',estoque = 87,preco_custo = '6',preco_venda = '12',codigo_barras = 'asd',data_cadastro = '2018-04-30',origem = 'N' WHERE id=1
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:42:30 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 199,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE id = 4
+20-12-2018 20:42:30 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 117,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-05-02',origem = 'N' WHERE id=4
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE id = 5
+20-12-2018 20:42:30 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 82,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-02',origem = 'N' WHERE id=5
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE id = 6
+20-12-2018 20:42:30 :: UPDATE produto SET descricao = 'Bateria AA ',estoque = 82,preco_custo = '35',preco_venda = '120',codigo_barras = 'tehr',data_cadastro = '2018-05-03',origem = 'N' WHERE id=6
+20-12-2018 20:42:30 :: SELECT * FROM produto WHERE id = 7
+20-12-2018 20:42:30 :: UPDATE produto SET descricao = 0,estoque = 54,preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+20-12-2018 20:43:20 :: SELECT * FROM produto WHERE (estoque > 51)
+20-12-2018 20:43:21 :: SELECT * FROM produto WHERE (estoque > 51)
+20-12-2018 20:43:21 :: SELECT * FROM produto WHERE (estoque > 51)
+20-12-2018 20:43:22 :: SELECT * FROM produto WHERE (estoque > 51)
+20-12-2018 20:43:35 :: SELECT * FROM produto WHERE (estoque > 60)
+20-12-2018 20:43:57 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:52 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:52 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:52 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 200,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:53 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 201,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:53 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 202,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:53 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 203,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:53 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:53 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 204,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:54 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:54 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:54 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 205,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:54 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:54 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:54 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 206,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:45:54 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:45:54 :: SELECT * FROM produto WHERE id = 3
+20-12-2018 20:45:54 :: UPDATE produto SET descricao = 'Pilha AA ',estoque = 207,preco_custo = '5',preco_venda = '7',codigo_barras = 'ryj56',data_cadastro = '2018-04-30',origem = 'N' WHERE id=3
+20-12-2018 20:46:01 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:46:02 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:46:02 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:46:02 :: SELECT * FROM produto WHERE (estoque > 150)
+20-12-2018 20:46:03 :: SELECT * FROM produto WHERE (estoque > 150)

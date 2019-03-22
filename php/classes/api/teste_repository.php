@@ -6,25 +6,31 @@
 
 	try {
 
+		// abre a transação com o nome do arquivo de consiguração chamado estoque
 		Transaction::open('estoque');
 
+		//  usa a  calsse de log txt
 		Transaction::setLogger(new LoggerTXT("../tmp/log_repository.txt"));
 
+		// cria um criterio de seleção
 		$criteria = new Criteria();
-		$criteria->add(new Filter('estoque','>',1));
+		$criteria->add(new Filter('estoque','>',150));
 
+		// instancia a classe Repository passando o nome da classe que queremos trabalhar
 		$repository = new Repository('Produto');
+		// faz o load do objeto critéria de acordo com os parametros passsados
 		$produtos = $repository->load($criteria);
 
 		/*echo "<pre>";
 		print_r($produtos);*/
 		if ($produtos) {
+			// percorre a lista de objetos retornados do BD
 			foreach ($produtos as $produto) {
 
 				// para realizar alteração no objeto basto informar o atributo em produto e colocar o valor
 				// desejado e chamar o emoto store pois cada produtp é um objeto
-				$produto->estoque += 1;
-				$produto->store();
+				//$produto->estoque += 1;
+				//$produto->store();
 				echo "<pre>";
 				print_r($produto);
 			}

@@ -1,0 +1,23 @@
+<div class="card" style="margin: 20">
+  <div class="card-header">
+    <h3 class="card-title"></h3>
+  </div>
+  <div class="card-body">
+    <table class="table table-striped">
+        <thead>
+            <tr> <th> id </td>
+                 <th> descricao </td>
+                 <th> estoque </td>
+            </tr>
+        </thead>
+        <tbody>
+        {% for p in produto %}
+            <tr> <td> {{p.id}} </td>
+                 <td> {{p.descricao}} </td>
+                 <td> {{p.estoque}} </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+  </div>
+</div>

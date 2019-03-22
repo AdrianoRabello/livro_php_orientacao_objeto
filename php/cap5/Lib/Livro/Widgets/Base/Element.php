@@ -52,11 +52,9 @@ class Element{
     private function open(){
         // exibe a tag de abertura
         echo "<{$this->tagname}";
-        if ($this->properties)
-        {
+        if ($this->properties){
             // percorre as propriedades
-            foreach ($this->properties as $name=>$value)
-            {
+            foreach ($this->properties as $name=>$value){
                 if (is_scalar($value))
                 {
                     echo " {$name}=\"{$value}\"";

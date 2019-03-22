@@ -6,8 +6,10 @@ namespace Livro\Database;
 
 /**
  * Permite definir filtros de seleção
- * @author Pablo Dall'Oglio
+
  */
+
+ require "Expression.php";
 class Filter extends Expression
 {
     private $variable; // variável

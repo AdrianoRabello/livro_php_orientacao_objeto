@@ -3,7 +3,7 @@ namespace Livro\Database;
 require 'Filter.php';
 /**
  * Permite definição de critérios
- * @author Pablo Dall'Oglio
+
  */
 class Criteria extends Expression
 {

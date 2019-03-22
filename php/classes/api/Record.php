@@ -206,11 +206,14 @@
 		// reponsavel por preparar os dados antes de inserir no BD
 		public function prepare($data){
 			$prepared = array();
-			foreach ($data as $key => $value) {
-				if (is_scalar($value)) {
-					$prepared[$key] = $this->escape($value);
+			if (is_array($data) || is_object($data)){
+				foreach ($data as $key => $value) {
+					if (is_scalar($value)) {
+						$prepared[$key] = $this->escape($value);
+					}
 				}
 			}
+
 			return $prepared;
 		}
 

@@ -27,7 +27,8 @@
   $teste->idade = 30;
   $teste->class = "classe teste";
 
+
   print_r($teste);
-  echo json_encode($teste->name);
+
 
  ?>

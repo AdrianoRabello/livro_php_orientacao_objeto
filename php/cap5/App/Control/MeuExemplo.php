@@ -37,13 +37,5 @@ class MeuExemplo extends Page
         parent::add($card);
 
 
-
-
-
-
-
-
-
-
     }
 }
