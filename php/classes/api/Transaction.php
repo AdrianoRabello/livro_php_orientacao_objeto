@@ -4,7 +4,7 @@
    *
    */
 
-  namespace Api;
+
   class Transaction{
 
     private static $con;

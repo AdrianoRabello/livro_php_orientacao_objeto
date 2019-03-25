@@ -28,7 +28,7 @@
   }
 
   public function get_descricao(){
-    return $this->data['descricao'];
+    return strtolower($this->data['descricao']);
   }
 
 

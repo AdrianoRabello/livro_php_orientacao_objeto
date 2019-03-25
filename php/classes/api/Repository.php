@@ -12,15 +12,26 @@
 
 		function load (Criteria $criteria){
 			//instancia a instrução de select
-			$sql = "SELECT * FROM ".constant($this->activeRecord.'::TABLENAME');
+			$sql = "SELECT * FROM ".constant($this->activeRecord.'::TABLENAME')." ";
 
 			//obtem a clausula where do objeto criteria
 			if ($criteria) {
 				$expression = $criteria->dump();
 
+				//echo ($criteria->getClass());
+				//die;
+
+				
+				$sql .= $criteria->joinDump();
+				
+
+
+
+				
 				if ($expression) {
-					$sql .= ' WHERE '.$expression;
+					$sql .= ' where '.$expression;
 				}
+				
 
 				$order 	= $criteria->getProperty('order');
 				$limit 	= $criteria->getProperty('limit');
@@ -38,6 +49,9 @@
 				if ($offset) {
 					$sql .= ' OFFSET '.$offset;
 				}
+
+				echo $sql;
+				die;
 			}
 
 			//echo "<pre>";

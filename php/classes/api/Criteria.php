@@ -11,14 +11,28 @@
     private $expressions;
     private $operators;
     private $properties;
+    private $join;
 
     function __construct(){
 
       $this->expressions = array();
       $this->operators = array();
+     
     }
 
+    public function getClass()
+    {
+
+      return get_class($this);
+    }
+
+
+   
+
+
     public function add(Expression $expression, $operator = self::AND_OPERATOR){
+
+      //echo $expression->className;
 
       if (empty($this->expressions)) {
 
@@ -45,9 +59,47 @@
             $result .= $operator.$expression->dump().' ';
           }
           $result = trim($result);
-          return "({$result})";
+
+          //echo $result;
+          //die;
+          // como estava antes 
+          //return "({$result})";
+          return "{$result}";
+
+          
         }
       }
+    }
+
+    public function joinDump(){
+
+      
+      if (is_array($this->expressions)) {
+        if (count($this->expressions) > 0) {
+
+          $result = '';
+          foreach ($this->expressions  as $i => $expression) {
+
+            $operator = $this->operators[$i];
+
+            //concatena operador com respectiva expressão
+            $result .= $operator.$expression->dump().' ';
+          }
+          $result = trim($result);
+
+          //echo $result;
+         // die;
+          // como estava antes 
+          return "{$result}";
+          //return "{$result}";
+
+          
+        }
+      }
+
+      //return  $sql = " join {$this->table} on {$this->table}.{$this->tableField} = {$this->field}";
+          
+       
     }
 
     public function setProperty($property, $value){

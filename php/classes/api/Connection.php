@@ -1,6 +1,6 @@
 <?php
 
-  namespace Api;
+ 
   final class Connection{
 
 

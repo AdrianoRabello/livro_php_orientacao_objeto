@@ -20,7 +20,7 @@
 
     public function getDescricao()
     {
-      return $this->descricao;
+      return ucfirst($this->descricao);
     }
 
     public function setFabricante(Fabricante $f)

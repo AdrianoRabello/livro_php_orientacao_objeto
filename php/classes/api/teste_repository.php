@@ -1,7 +1,8 @@
 <?php
 
-
+	
 	require_once("autoload.php");
+	
 
 
 	try {
@@ -14,12 +15,19 @@
 
 		// cria um criterio de seleção
 		$criteria = new Criteria();
-		$criteria->add(new Filter('estoque','>',150));
+		
+		$criteria->add(new Join('produto','id',"id_produto"));
+		$criteria->add(new Filter('id','=',1));
+		//$criteria->add(new Join('venda','id',"id_venda"),Expression::S_OPERATOR);
 
 		// instancia a classe Repository passando o nome da classe que queremos trabalhar
 		$repository = new Repository('Produto');
+		//$repository = new Repository('ItemVenda');
 		// faz o load do objeto critéria de acordo com os parametros passsados
 		$produtos = $repository->load($criteria);
+		
+		/*echo "<pre>";
+		 print_r($produtos);*/
 
 		/*echo "<pre>";
 		print_r($produtos);*/
@@ -33,6 +41,8 @@
 				//$produto->store();
 				echo "<pre>";
 				print_r($produto);
+				//echo $produto->get_descricao();
+				//$produto->store();
 			}
 
 		// toda solicitação de alteração só será executada após o fechamento da transação

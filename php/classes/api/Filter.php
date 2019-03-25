@@ -9,6 +9,7 @@
     private $variable;
     private $operator;
     private $value;
+    public $className = "Filter";
     function __construct($variable, $operator, $value){
 
       $this->variable = $variable;
