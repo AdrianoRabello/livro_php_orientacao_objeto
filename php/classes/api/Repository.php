@@ -22,7 +22,7 @@
 				//die;
 
 				
-				$sql .= $criteria->joinDump();
+				//$sql .= $criteria->joinDump();
 				
 
 
@@ -50,8 +50,8 @@
 					$sql .= ' OFFSET '.$offset;
 				}
 
-				echo $sql;
-				die;
+				//echo $sql;
+				//die;
 			}
 
 			//echo "<pre>";

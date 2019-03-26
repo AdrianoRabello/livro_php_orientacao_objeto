@@ -5,7 +5,10 @@
  */
  class Produto extends Record{
 
-   const TABLENAME = 'produto';
+	 const TABLENAME = 'produto';
+	 
+	 private $estoque;
+	 private $descricao;
 
    	public function set_estoque($estoque){
 			if (is_numeric($estoque) AND $estoque > 0) {
@@ -16,8 +19,12 @@
 		}
 
 	public function get_estoque(){
-		return $this->data['estoque'];
+		//return $this->data['estoque'];
+
+		return $this->estoque;
 	}
+
+	
 
 
 
@@ -28,8 +35,28 @@
   }
 
   public function get_descricao(){
-    return strtolower($this->data['descricao']);
-  }
+		//return ucfirst($this->data['descricao']);
+		
+		return strtoupper($this->descricao);
+	}
+
+
+	public function loadById($id)
+	{
+
+		$criteria = new Criteria();
+		
+		//$criteria->add(new Join('produto','id',"id_produto"));
+		$criteria->add(new Filter('id','=',$id));
+
+		$repository = new Repository("produto");
+
+		$produto = $repository->load($criteria);
+
+		return $produto;
+	}
+	
+	
 
 
 

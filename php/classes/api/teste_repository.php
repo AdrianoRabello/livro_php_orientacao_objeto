@@ -16,8 +16,9 @@
 		// cria um criterio de seleção
 		$criteria = new Criteria();
 		
-		$criteria->add(new Join('produto','id',"id_produto"));
-		$criteria->add(new Filter('id','=',1));
+		//$criteria->add(new Join('produto','id',"id_produto"));
+		$criteria->add(new Filter('id','>',1),Expression::OR_OPERATOR);
+		//$criteria->add(new Filter('id','=',2),Expression::OR_OPERATOR);
 		//$criteria->add(new Join('venda','id',"id_venda"),Expression::S_OPERATOR);
 
 		// instancia a classe Repository passando o nome da classe que queremos trabalhar
@@ -31,6 +32,8 @@
 
 		/*echo "<pre>";
 		print_r($produtos);*/
+
+		$produto = new Produto();
 		if ($produtos) {
 			// percorre a lista de objetos retornados do BD
 			foreach ($produtos as $produto) {
@@ -40,10 +43,13 @@
 				//$produto->estoque += 1;
 				//$produto->store();
 				echo "<pre>";
-				print_r($produto);
+				//print_r($produto->id);
+				$produtos[] = $produto->loadById($produto->id);
 				//echo $produto->get_descricao();
 				//$produto->store();
 			}
+
+			print_r($produtos[0]->get_descricao());
 
 		// toda solicitação de alteração só será executada após o fechamento da transação
 		Transaction::close();
