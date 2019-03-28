@@ -15,7 +15,7 @@
 
 
 
-		$/*criteria = new Livro\Database\Criteria;
+		/*$criteria = new Livro\Database\Criteria;
 		$con =  Livro\Database\Connection::open('stoque');
 
 		$criteria->add(new  Livro\Database\Filter('idade','>','10'));

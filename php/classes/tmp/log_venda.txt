@@ -1070,3 +1070,99 @@
 20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
 20-12-2018 16:54:27 :: SELECT * FROM produto WHERE id = 7
 20-12-2018 16:54:27 :: UPDATE produto SET descricao = 'Mouse',estoque = '51',preco_custo = '20',preco_venda = '50',codigo_barras = 'asdasd',data_cadastro = '2018-12-18',origem = 'N' WHERE id=7
+27-03-2019 17:57:02 :: Inserindo uma nova venda 
+27-03-2019 17:57:02 :: SELECT max(id) FROM venda
+27-03-2019 17:57:02 :: INSERT INTO venda (data_venda, id)values('2019-03-27', 25 )
+27-03-2019 17:57:43 :: Inserindo uma nova venda 
+27-03-2019 17:57:54 :: Inserindo uma nova venda 
+27-03-2019 17:58:03 :: Inserindo uma nova venda 
+27-03-2019 17:58:04 :: Inserindo uma nova venda 
+27-03-2019 17:58:04 :: Inserindo uma nova venda 
+27-03-2019 17:58:04 :: Inserindo uma nova venda 
+27-03-2019 17:58:23 :: Inserindo uma nova venda 
+27-03-2019 17:58:24 :: Inserindo uma nova venda 
+27-03-2019 17:58:24 :: Inserindo uma nova venda 
+27-03-2019 17:58:24 :: Inserindo uma nova venda 
+27-03-2019 17:58:24 :: Inserindo uma nova venda 
+27-03-2019 17:58:52 :: Inserindo uma nova venda 
+27-03-2019 17:58:52 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:02 :: Inserindo uma nova venda 
+27-03-2019 17:59:02 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:03 :: Inserindo uma nova venda 
+27-03-2019 17:59:03 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:03 :: Inserindo uma nova venda 
+27-03-2019 17:59:03 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:03 :: Inserindo uma nova venda 
+27-03-2019 17:59:03 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:03 :: Inserindo uma nova venda 
+27-03-2019 17:59:03 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:04 :: Inserindo uma nova venda 
+27-03-2019 17:59:04 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:04 :: Inserindo uma nova venda 
+27-03-2019 17:59:04 :: SELECT * FROM produto  where id > 0
+27-03-2019 17:59:23 :: Inserindo uma nova venda 
+27-03-2019 17:59:23 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:22:38 :: Inserindo uma nova venda 
+27-03-2019 18:22:38 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:28:39 :: Inserindo uma nova venda 
+27-03-2019 18:28:39 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:57 :: Inserindo uma nova venda 
+27-03-2019 18:29:57 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:57 :: Inserindo uma nova venda 
+27-03-2019 18:29:57 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:57 :: Inserindo uma nova venda 
+27-03-2019 18:29:57 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:58 :: Inserindo uma nova venda 
+27-03-2019 18:29:58 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:58 :: Inserindo uma nova venda 
+27-03-2019 18:29:58 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:58 :: Inserindo uma nova venda 
+27-03-2019 18:29:58 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:29:58 :: Inserindo uma nova venda 
+27-03-2019 18:29:58 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:30:07 :: Inserindo uma nova venda 
+27-03-2019 18:30:07 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:30:08 :: Inserindo uma nova venda 
+27-03-2019 18:30:08 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:30:08 :: Inserindo uma nova venda 
+27-03-2019 18:30:08 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:07 :: Inserindo uma nova venda 
+27-03-2019 18:31:07 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:08 :: Inserindo uma nova venda 
+27-03-2019 18:31:08 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:08 :: Inserindo uma nova venda 
+27-03-2019 18:31:08 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:31 :: Inserindo uma nova venda 
+27-03-2019 18:31:31 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:31 :: Inserindo uma nova venda 
+27-03-2019 18:31:31 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:31 :: Inserindo uma nova venda 
+27-03-2019 18:31:31 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:42 :: Inserindo uma nova venda 
+27-03-2019 18:31:42 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:42 :: Inserindo uma nova venda 
+27-03-2019 18:31:42 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:43 :: Inserindo uma nova venda 
+27-03-2019 18:31:43 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:43 :: Inserindo uma nova venda 
+27-03-2019 18:31:43 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:44 :: Inserindo uma nova venda 
+27-03-2019 18:31:44 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:44 :: Inserindo uma nova venda 
+27-03-2019 18:31:44 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:44 :: Inserindo uma nova venda 
+27-03-2019 18:31:44 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:44 :: Inserindo uma nova venda 
+27-03-2019 18:31:44 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:31:45 :: Inserindo uma nova venda 
+27-03-2019 18:31:45 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:32:35 :: Inserindo uma nova venda 
+27-03-2019 18:32:35 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:32:47 :: Inserindo uma nova venda 
+27-03-2019 18:32:47 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:33:01 :: Inserindo uma nova venda 
+27-03-2019 18:33:01 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:33:02 :: Inserindo uma nova venda 
+27-03-2019 18:33:02 :: SELECT * FROM produto  where id > 0
+27-03-2019 18:33:02 :: Inserindo uma nova venda 
+27-03-2019 18:33:02 :: SELECT * FROM produto  where id > 0
